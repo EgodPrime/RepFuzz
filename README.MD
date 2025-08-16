@@ -1,20 +1,19 @@
-# RepFuzz: Robust and Effective Python Library Fuzzing With Large Language Model
+# RepFuzz
+
+This repository is the implementation of our paper "Robust and Effective Python Library Fuzzing With Large Language Model" which is submitted to IEEE TDSC for review.
 
 # Setup
 
 ```bash
-# install plfuzz with its dependencies
+# install RepFuzz with its dependencies
 pip install -e .
 
-# (optional) install plfuzz with its dependencies
+# (optional) install RepFuzz with its dependencies
 pip install -e .[dev]
 
 # (optional) install the puts for experments
 pip install -r put_requirements.txt
 
-# For developer: do the following things before you commit
-black src
-isort src
 ```
 
 # Quick Start
@@ -28,7 +27,7 @@ cd safedir
 
 We recommend you to run all the following steps in `safedir` dir since AI will generate arbitrary code.
 
-## I. Edit `src/plfuzz/config.py`
+## I. Edit `src/repfuzz/config.py`
 
 1. add the target library name you want to fuzz in `tgts`, don't forget to install the library first.
 

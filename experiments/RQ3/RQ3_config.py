@@ -1,7 +1,7 @@
 import pathlib
 
 PROJECT_DIR = pathlib.Path(__file__).resolve().parent.parent.parent
-SOURCE_DIR = PROJECT_DIR.joinpath("src", "plfuzz")
+SOURCE_DIR = PROJECT_DIR.joinpath("src", "repfuzz")
 DATA_DIR = PROJECT_DIR.joinpath("data")
 LIBRARY_DATA_DIR = DATA_DIR.joinpath("library_qwen_2.5_7")
 FUZZFILE_PATH = DATA_DIR.joinpath("fuzz.db")

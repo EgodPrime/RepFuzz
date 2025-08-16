@@ -34,7 +34,7 @@ def safe_fuzz(
     Safely fuzz the given library by executing the fuzzing process in a separate process.
 
     This function is designed to handle the fuzzing process in a safe manner by:
-    - Instrumenting the library using the `plfuzz.fuzz.static_instrument` module to add fuzzing functionality.
+    - Instrumenting the library using the `repfuzz.fuzz.static_instrument` module to add fuzzing functionality.
 
     Args:
         library_name (str): The name of the library to be fuzzed.
