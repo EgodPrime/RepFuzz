@@ -1,0 +1,13 @@
+**/__pycache__
+**/*.egg-info
+.vscode/settings.json
+output
+output-*
+safedir
+**/sqlite/*.db
+# data
+build
+.vscode
+**/*.so
+**/*.jpg
+**/*.json

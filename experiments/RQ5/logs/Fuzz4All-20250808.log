@@ -1,0 +1,324 @@
+2025-08-08 11:07:09.157 | INFO     | f4a test difflib begin
+2025-08-08 11:07:09.158 | INFO     | difflib has 1 API
+2025-08-08 11:07:09.158 | INFO     | f4a test difflib.unified_diff begin
+2025-08-08 11:08:38.018 | INFO     | Coverage now: 218
+2025-08-08 11:08:38.019 | INFO     | f4a test difflib.unified_diff done
+2025-08-08 11:08:44.598 | INFO     | f4a test re begin
+2025-08-08 11:08:44.598 | INFO     | re has 1 API
+2025-08-08 11:08:44.598 | INFO     | f4a test re.purge begin
+2025-08-08 11:10:59.942 | INFO     | Coverage now: 218
+2025-08-08 11:10:59.942 | INFO     | f4a test re.purge done
+2025-08-08 11:11:06.195 | INFO     | f4a test locale begin
+2025-08-08 11:11:06.196 | INFO     | locale has 1 API
+2025-08-08 11:11:06.196 | INFO     | f4a test locale.normalize begin
+2025-08-08 11:12:39.160 | INFO     | Coverage now: 1121
+2025-08-08 11:12:39.160 | INFO     | f4a test locale.normalize done
+2025-08-08 11:12:45.388 | INFO     | f4a test ast begin
+2025-08-08 11:12:45.388 | INFO     | ast has 1 API
+2025-08-08 11:12:45.388 | INFO     | f4a test ast.get_source_segment begin
+2025-08-08 11:14:24.233 | INFO     | Coverage now: 1121
+2025-08-08 11:14:24.233 | INFO     | f4a test ast.get_source_segment done
+2025-08-08 11:14:30.462 | INFO     | f4a test sklearn begin
+2025-08-08 11:14:30.462 | INFO     | sklearn has 1 API
+2025-08-08 11:14:30.462 | INFO     | f4a test sklearn.feature_extraction.image.img_to_graph begin
+2025-08-08 11:17:49.276 | INFO     | Coverage now: 11366
+2025-08-08 11:17:49.276 | INFO     | f4a test sklearn.feature_extraction.image.img_to_graph done
+2025-08-08 11:17:55.522 | INFO     | f4a test inspect begin
+2025-08-08 11:17:55.522 | INFO     | inspect has 1 API
+2025-08-08 11:17:55.522 | INFO     | f4a test inspect.currentframe begin
+2025-08-08 11:19:38.225 | INFO     | Coverage now: 11366
+2025-08-08 11:19:38.225 | INFO     | f4a test inspect.currentframe done
+2025-08-08 11:19:44.457 | INFO     | f4a test scipy begin
+2025-08-08 11:19:44.457 | INFO     | scipy has 2 API
+2025-08-08 11:19:44.458 | INFO     | f4a test scipy.spatial.distance.correlation begin
+2025-08-08 11:21:18.281 | INFO     | Coverage now: 16637
+2025-08-08 11:21:18.282 | INFO     | f4a test scipy.spatial.distance.correlation done
+2025-08-08 11:21:18.282 | INFO     | f4a test scipy.spatial.distance.braycurtis begin
+2025-08-08 11:22:52.924 | INFO     | Coverage now: 29194
+2025-08-08 11:22:52.924 | INFO     | f4a test scipy.spatial.distance.braycurtis done
+2025-08-08 11:22:59.225 | INFO     | f4a test dask begin
+2025-08-08 11:22:59.225 | INFO     | dask has 5 API
+2025-08-08 11:22:59.225 | INFO     | f4a test dask.config.collect begin
+2025-08-08 11:24:44.577 | INFO     | Coverage now: 31156
+2025-08-08 11:24:44.578 | INFO     | f4a test dask.config.collect done
+2025-08-08 11:24:44.578 | INFO     | f4a test dask.sizeof.sizeof_memoryview begin
+2025-08-08 11:26:17.574 | INFO     | Coverage now: 34953
+2025-08-08 11:26:17.574 | INFO     | f4a test dask.sizeof.sizeof_memoryview done
+2025-08-08 11:26:17.574 | INFO     | f4a test dask.utils.random_state_data begin
+2025-08-08 11:28:15.391 | INFO     | Coverage now: 35742
+2025-08-08 11:28:15.391 | INFO     | f4a test dask.utils.random_state_data done
+2025-08-08 11:28:15.391 | INFO     | f4a test dask.config.serialize begin
+2025-08-08 11:30:02.108 | INFO     | Coverage now: 35750
+2025-08-08 11:30:02.109 | INFO     | f4a test dask.config.serialize done
+2025-08-08 11:30:02.109 | INFO     | f4a test dask.hashing.hash_buffer begin
+2025-08-08 11:31:44.668 | INFO     | Coverage now: 35753
+2025-08-08 11:31:44.668 | INFO     | f4a test dask.hashing.hash_buffer done
+2025-08-08 11:31:51.010 | INFO     | f4a test nltk begin
+2025-08-08 11:31:51.010 | INFO     | nltk has 12 API
+2025-08-08 11:31:51.010 | INFO     | f4a test nltk.chunk.util.conlltags2tree begin
+2025-08-08 11:35:49.270 | INFO     | Coverage now: 46859
+2025-08-08 11:35:49.271 | INFO     | f4a test nltk.chunk.util.conlltags2tree done
+2025-08-08 11:35:49.271 | INFO     | f4a test nltk.metrics.distance.jaro_similarity begin
+2025-08-08 11:39:42.756 | INFO     | Coverage now: 46884
+2025-08-08 11:39:42.756 | INFO     | f4a test nltk.metrics.distance.jaro_similarity done
+2025-08-08 11:39:42.757 | INFO     | f4a test nltk.classify.util.wsd_demo begin
+2025-08-08 11:43:29.718 | INFO     | Coverage now: 47265
+2025-08-08 11:43:29.718 | INFO     | f4a test nltk.classify.util.wsd_demo done
+2025-08-08 11:43:29.718 | INFO     | f4a test nltk.lm.preprocessing.padded_everygram_pipeline begin
+2025-08-08 11:47:27.032 | INFO     | Coverage now: 47265
+2025-08-08 11:47:27.032 | INFO     | f4a test nltk.lm.preprocessing.padded_everygram_pipeline done
+2025-08-08 11:47:27.032 | INFO     | f4a test nltk.data.normalize_resource_name begin
+2025-08-08 11:52:08.335 | INFO     | Coverage now: 47265
+2025-08-08 11:52:08.335 | INFO     | f4a test nltk.data.normalize_resource_name done
+2025-08-08 11:52:08.335 | INFO     | f4a test nltk.chunk.ne_chunker begin
+2025-08-08 11:55:52.625 | INFO     | Coverage now: 47265
+2025-08-08 11:55:52.625 | INFO     | f4a test nltk.chunk.ne_chunker done
+2025-08-08 11:55:52.625 | INFO     | f4a test nltk.internals.find_binary_iter begin
+2025-08-08 11:59:50.222 | INFO     | Coverage now: 47268
+2025-08-08 11:59:50.222 | INFO     | f4a test nltk.internals.find_binary_iter done
+2025-08-08 11:59:50.222 | INFO     | f4a test nltk.tokenize.texttiling.smooth begin
+2025-08-08 12:03:24.906 | INFO     | Coverage now: 47564
+2025-08-08 12:03:24.906 | INFO     | f4a test nltk.tokenize.texttiling.smooth done
+2025-08-08 12:03:24.907 | INFO     | f4a test nltk.demo begin
+2025-08-08 12:07:38.052 | INFO     | Coverage now: 47759
+2025-08-08 12:07:38.052 | INFO     | f4a test nltk.demo done
+2025-08-08 12:07:38.052 | INFO     | f4a test nltk.parse.nonprojectivedependencyparser.demo begin
+2025-08-08 12:11:23.104 | INFO     | Coverage now: 47858
+2025-08-08 12:11:23.104 | INFO     | f4a test nltk.parse.nonprojectivedependencyparser.demo done
+2025-08-08 12:11:23.104 | INFO     | f4a test nltk.classify.util.accuracy begin
+2025-08-08 12:15:06.803 | INFO     | Coverage now: 47880
+2025-08-08 12:15:06.804 | INFO     | f4a test nltk.classify.util.accuracy done
+2025-08-08 12:15:06.804 | INFO     | f4a test nltk.inference.resolution.clausify begin
+2025-08-08 12:18:53.546 | INFO     | Coverage now: 47880
+2025-08-08 12:18:53.546 | INFO     | f4a test nltk.inference.resolution.clausify done
+2025-08-08 12:19:00.431 | INFO     | f4a test pandas begin
+2025-08-08 12:19:00.431 | INFO     | pandas has 15 API
+2025-08-08 12:19:00.431 | INFO     | f4a test pandas.core.arrays.categorical.contains begin
+2025-08-08 12:21:28.108 | INFO     | Coverage now: 74166
+2025-08-08 12:21:28.109 | INFO     | f4a test pandas.core.arrays.categorical.contains done
+2025-08-08 12:21:28.109 | INFO     | f4a test pandas.core.computation.expressions.where begin
+2025-08-08 12:23:57.353 | INFO     | Coverage now: 77118
+2025-08-08 12:23:57.353 | INFO     | f4a test pandas.core.computation.expressions.where done
+2025-08-08 12:23:57.353 | INFO     | f4a test pandas.io.sql.execute begin
+2025-08-08 12:26:29.947 | INFO     | Coverage now: 77879
+2025-08-08 12:26:29.947 | INFO     | f4a test pandas.io.sql.execute done
+2025-08-08 12:26:29.947 | INFO     | f4a test pandas.core.groupby.grouper.get_grouper begin
+2025-08-08 12:29:02.208 | INFO     | Coverage now: 79789
+2025-08-08 12:29:02.208 | INFO     | f4a test pandas.core.groupby.grouper.get_grouper done
+2025-08-08 12:29:02.208 | INFO     | f4a test pandas.io.parsers.readers.read_table begin
+2025-08-08 12:31:28.657 | INFO     | Coverage now: 80200
+2025-08-08 12:31:28.658 | INFO     | f4a test pandas.io.parsers.readers.read_table done
+2025-08-08 12:31:28.658 | INFO     | f4a test pandas.compat.is_platform_mac begin
+2025-08-08 12:33:58.320 | INFO     | Coverage now: 80391
+2025-08-08 12:33:58.321 | INFO     | f4a test pandas.compat.is_platform_mac done
+2025-08-08 12:33:58.321 | INFO     | f4a test pandas.io.formats.format.get_level_lengths begin
+2025-08-08 12:36:36.488 | INFO     | Coverage now: 81799
+2025-08-08 12:36:36.488 | INFO     | f4a test pandas.io.formats.format.get_level_lengths done
+2025-08-08 12:36:36.488 | INFO     | f4a test pandas.io.common.is_fsspec_url begin
+2025-08-08 12:39:16.130 | INFO     | Coverage now: 81861
+2025-08-08 12:39:16.130 | INFO     | f4a test pandas.io.common.is_fsspec_url done
+2025-08-08 12:39:16.130 | INFO     | f4a test pandas.core.nanops.nanmedian begin
+2025-08-08 12:41:51.154 | INFO     | Coverage now: 81938
+2025-08-08 12:41:51.154 | INFO     | f4a test pandas.core.nanops.nanmedian done
+2025-08-08 12:41:51.154 | INFO     | f4a test pandas.core.nanops.reduction begin
+2025-08-08 12:44:20.879 | INFO     | Coverage now: 82110
+2025-08-08 12:44:20.879 | INFO     | f4a test pandas.core.nanops.reduction done
+2025-08-08 12:44:20.879 | INFO     | f4a test pandas.core.sorting.lexsort_indexer begin
+2025-08-08 12:46:44.997 | INFO     | Coverage now: 82499
+2025-08-08 12:46:44.997 | INFO     | f4a test pandas.core.sorting.lexsort_indexer done
+2025-08-08 12:46:44.997 | INFO     | f4a test pandas.core.reshape.encoding.get_dummies begin
+2025-08-08 12:49:16.295 | INFO     | Coverage now: 82991
+2025-08-08 12:49:16.295 | INFO     | f4a test pandas.core.reshape.encoding.get_dummies done
+2025-08-08 12:49:16.295 | INFO     | f4a test pandas.core.nanops.get_corr_func begin
+2025-08-08 12:51:54.519 | INFO     | Coverage now: 83032
+2025-08-08 12:51:54.519 | INFO     | f4a test pandas.core.nanops.get_corr_func done
+2025-08-08 12:51:54.519 | INFO     | f4a test pandas.core.sample.preprocess_weights begin
+2025-08-08 12:54:19.984 | INFO     | Coverage now: 83117
+2025-08-08 12:54:19.984 | INFO     | f4a test pandas.core.sample.preprocess_weights done
+2025-08-08 12:54:19.985 | INFO     | f4a test pandas.core.dtypes.cast.find_common_type begin
+2025-08-08 12:56:44.796 | INFO     | Coverage now: 83507
+2025-08-08 12:56:44.796 | INFO     | f4a test pandas.core.dtypes.cast.find_common_type done
+2025-08-08 12:56:51.140 | INFO     | f4a test numpy begin
+2025-08-08 12:56:51.140 | INFO     | numpy has 17 API
+2025-08-08 12:56:51.140 | INFO     | f4a test numpy.f2py.capi_maps.cb_sign2map begin
+2025-08-08 12:58:34.733 | INFO     | Coverage now: 87801
+2025-08-08 12:58:34.733 | INFO     | f4a test numpy.f2py.capi_maps.cb_sign2map done
+2025-08-08 12:58:34.733 | INFO     | f4a test numpy.set_printoptions begin
+2025-08-08 13:00:48.718 | INFO     | Coverage now: 89009
+2025-08-08 13:00:48.718 | INFO     | f4a test numpy.set_printoptions done
+2025-08-08 13:00:48.718 | INFO     | f4a test numpy.lib.format.read_array_header_2_0 begin
+2025-08-08 13:02:23.911 | INFO     | Coverage now: 89311
+2025-08-08 13:02:23.912 | INFO     | f4a test numpy.lib.format.read_array_header_2_0 done
+2025-08-08 13:02:23.912 | INFO     | f4a test numpy.lib.format.dtype_to_descr begin
+2025-08-08 13:03:59.963 | INFO     | Coverage now: 89372
+2025-08-08 13:03:59.964 | INFO     | f4a test numpy.lib.format.dtype_to_descr done
+2025-08-08 13:03:59.964 | INFO     | f4a test numpy.get_printoptions begin
+2025-08-08 13:06:00.873 | INFO     | Coverage now: 89478
+2025-08-08 13:06:00.873 | INFO     | f4a test numpy.get_printoptions done
+2025-08-08 13:06:00.873 | INFO     | f4a test numpy.asmatrix begin
+2025-08-08 13:08:02.965 | INFO     | Coverage now: 89544
+2025-08-08 13:08:02.965 | INFO     | f4a test numpy.asmatrix done
+2025-08-08 13:08:02.965 | INFO     | f4a test numpy.polynomial.chebyshev.chebgrid2d begin
+2025-08-08 13:09:44.363 | INFO     | Coverage now: 90173
+2025-08-08 13:09:44.363 | INFO     | f4a test numpy.polynomial.chebyshev.chebgrid2d done
+2025-08-08 13:09:44.363 | INFO     | f4a test numpy.f2py.crackfortran.sortvarnames begin
+2025-08-08 13:11:18.172 | INFO     | Coverage now: 91819
+2025-08-08 13:11:18.172 | INFO     | f4a test numpy.f2py.crackfortran.sortvarnames done
+2025-08-08 13:11:18.172 | INFO     | f4a test numpy.f2py.func2subr.assubr begin
+2025-08-08 13:12:56.844 | INFO     | Coverage now: 91832
+2025-08-08 13:12:56.845 | INFO     | f4a test numpy.f2py.func2subr.assubr done
+2025-08-08 13:12:56.845 | INFO     | f4a test numpy.ma.core.power begin
+2025-08-08 13:14:45.221 | INFO     | Coverage now: 92397
+2025-08-08 13:14:45.222 | INFO     | f4a test numpy.ma.core.power done
+2025-08-08 13:14:45.222 | INFO     | f4a test numpy.polynomial.hermite.hermsub begin
+2025-08-08 13:16:27.641 | INFO     | Coverage now: 92474
+2025-08-08 13:16:27.642 | INFO     | f4a test numpy.polynomial.hermite.hermsub done
+2025-08-08 13:16:27.642 | INFO     | f4a test numpy.lib.format.descr_to_dtype begin
+2025-08-08 13:18:12.261 | INFO     | Coverage now: 92620
+2025-08-08 13:18:12.261 | INFO     | f4a test numpy.lib.format.descr_to_dtype done
+2025-08-08 13:18:12.261 | INFO     | f4a test numpy.strings.title begin
+2025-08-08 13:19:42.350 | INFO     | Coverage now: 92624
+2025-08-08 13:19:42.350 | INFO     | f4a test numpy.strings.title done
+2025-08-08 13:19:42.350 | INFO     | f4a test numpy.rec.fromrecords begin
+2025-08-08 13:21:41.887 | INFO     | Coverage now: 92816
+2025-08-08 13:21:41.887 | INFO     | f4a test numpy.rec.fromrecords done
+2025-08-08 13:21:41.887 | INFO     | f4a test numpy.polynomial.laguerre.lagmulx begin
+2025-08-08 13:23:30.145 | INFO     | Coverage now: 92915
+2025-08-08 13:23:30.145 | INFO     | f4a test numpy.polynomial.laguerre.lagmulx done
+2025-08-08 13:23:30.145 | INFO     | f4a test numpy.f2py.auxfuncs.getuseblocks begin
+2025-08-08 13:25:09.122 | INFO     | Coverage now: 92915
+2025-08-08 13:25:09.122 | INFO     | f4a test numpy.f2py.auxfuncs.getuseblocks done
+2025-08-08 13:25:09.122 | INFO     | f4a test numpy.seterr begin
+2025-08-08 13:26:44.840 | INFO     | Coverage now: 92924
+2025-08-08 13:26:44.840 | INFO     | f4a test numpy.seterr done
+2025-08-08 13:26:51.176 | INFO     | f4a test torch begin
+2025-08-08 13:26:51.176 | INFO     | torch has 43 API
+2025-08-08 13:26:51.176 | INFO     | f4a test torch.autograd.gradcheck.gradgradcheck begin
+2025-08-08 13:31:35.261 | INFO     | Coverage now: 133658
+2025-08-08 13:31:35.261 | INFO     | f4a test torch.autograd.gradcheck.gradgradcheck done
+2025-08-08 13:31:35.261 | INFO     | f4a test torch.nn.modules.module.register_module_forward_hook begin
+2025-08-08 13:36:36.272 | INFO     | Coverage now: 133658
+2025-08-08 13:36:36.272 | INFO     | f4a test torch.nn.modules.module.register_module_forward_hook done
+2025-08-08 13:36:36.273 | INFO     | f4a test torch.cuda.tunable.get_results begin
+2025-08-08 13:41:21.840 | INFO     | Coverage now: 133658
+2025-08-08 13:41:21.841 | INFO     | f4a test torch.cuda.tunable.get_results done
+2025-08-08 13:41:21.841 | INFO     | f4a test torch.fx.experimental.sym_node.sympy_is_channels_last_strides_generic begin
+2025-08-08 13:46:23.878 | INFO     | Coverage now: 133795
+2025-08-08 13:46:23.878 | INFO     | f4a test torch.fx.experimental.sym_node.sympy_is_channels_last_strides_generic done
+2025-08-08 13:46:23.878 | INFO     | f4a test torch.ao.nn.intrinsic.qat.modules.conv_fused.freeze_bn_stats begin
+2025-08-08 13:51:45.082 | INFO     | Coverage now: 158681
+2025-08-08 13:51:45.082 | INFO     | f4a test torch.ao.nn.intrinsic.qat.modules.conv_fused.freeze_bn_stats done
+2025-08-08 13:51:45.082 | INFO     | f4a test torch.miopen_rnn begin
+2025-08-08 13:57:01.840 | INFO     | Coverage now: 158681
+2025-08-08 13:57:01.840 | INFO     | f4a test torch.miopen_rnn done
+2025-08-08 13:57:01.840 | INFO     | f4a test torch.frac begin
+2025-08-08 14:02:10.627 | INFO     | Coverage now: 158681
+2025-08-08 14:02:10.627 | INFO     | f4a test torch.frac done
+2025-08-08 14:02:10.628 | INFO     | f4a test torch.clamp_min begin
+2025-08-08 14:07:10.753 | INFO     | Coverage now: 158685
+2025-08-08 14:07:10.753 | INFO     | f4a test torch.clamp_min done
+2025-08-08 14:07:10.753 | INFO     | f4a test torch.nn.functional._threshold begin
+2025-08-08 14:12:00.210 | INFO     | Coverage now: 158699
+2025-08-08 14:12:00.210 | INFO     | f4a test torch.nn.functional._threshold done
+2025-08-08 14:12:00.211 | INFO     | f4a test torch.utils.collect_env.run begin
+2025-08-08 14:17:10.266 | INFO     | Coverage now: 158876
+2025-08-08 14:17:10.266 | INFO     | f4a test torch.utils.collect_env.run done
+2025-08-08 14:17:10.266 | INFO     | f4a test torch.xpu.is_initialized begin
+2025-08-08 14:22:09.132 | INFO     | Coverage now: 158881
+2025-08-08 14:22:09.132 | INFO     | f4a test torch.xpu.is_initialized done
+2025-08-08 14:22:09.132 | INFO     | f4a test torch.fx.node.map_aggregate begin
+2025-08-08 14:27:05.899 | INFO     | Coverage now: 158895
+2025-08-08 14:27:05.899 | INFO     | f4a test torch.fx.node.map_aggregate done
+2025-08-08 14:27:05.899 | INFO     | f4a test torch.set_autocast_ipu_enabled begin
+2025-08-08 14:32:28.853 | INFO     | Coverage now: 158897
+2025-08-08 14:32:28.854 | INFO     | f4a test torch.set_autocast_ipu_enabled done
+2025-08-08 14:32:28.854 | INFO     | f4a test torch.feature_dropout_ begin
+2025-08-08 14:37:22.631 | INFO     | Coverage now: 158897
+2025-08-08 14:37:22.631 | INFO     | f4a test torch.feature_dropout_ done
+2025-08-08 14:37:22.631 | INFO     | f4a test torch.mode begin
+2025-08-08 14:42:32.897 | INFO     | Coverage now: 158897
+2025-08-08 14:42:32.897 | INFO     | f4a test torch.mode done
+2025-08-08 14:42:32.897 | INFO     | f4a test torch.ao.quantization.pt2e.export_utils._move_exported_model_to_train begin
+2025-08-08 14:47:34.298 | INFO     | Coverage now: 158905
+2025-08-08 14:47:34.298 | INFO     | f4a test torch.ao.quantization.pt2e.export_utils._move_exported_model_to_train done
+2025-08-08 14:47:34.298 | INFO     | f4a test torch.fx.experimental.proxy_tensor.maybe_handle_decomp begin
+2025-08-08 14:53:01.093 | INFO     | Coverage now: 158935
+2025-08-08 14:53:01.093 | INFO     | f4a test torch.fx.experimental.proxy_tensor.maybe_handle_decomp done
+2025-08-08 14:53:01.093 | INFO     | f4a test torch.argmax begin
+2025-08-08 14:57:42.713 | INFO     | Coverage now: 158938
+2025-08-08 14:57:42.714 | INFO     | f4a test torch.argmax done
+2025-08-08 14:57:42.714 | INFO     | f4a test torch.utils.set_module begin
+2025-08-08 15:02:44.632 | INFO     | Coverage now: 158938
+2025-08-08 15:02:44.632 | INFO     | f4a test torch.utils.set_module done
+2025-08-08 15:02:44.632 | INFO     | f4a test torch.ao.quantization.quantization_mappings.get_embedding_static_quant_module_mappings begin
+2025-08-08 15:07:50.098 | INFO     | Coverage now: 158938
+2025-08-08 15:07:50.099 | INFO     | f4a test torch.ao.quantization.quantization_mappings.get_embedding_static_quant_module_mappings done
+2025-08-08 15:07:50.099 | INFO     | f4a test torch.utils.backend_registration.generate_methods_for_privateuse1_backend begin
+2025-08-08 15:12:33.962 | INFO     | Coverage now: 158972
+2025-08-08 15:12:33.963 | INFO     | f4a test torch.utils.backend_registration.generate_methods_for_privateuse1_backend done
+2025-08-08 15:12:33.963 | INFO     | f4a test torch.nanmedian begin
+2025-08-08 15:17:24.297 | INFO     | Coverage now: 158972
+2025-08-08 15:17:24.297 | INFO     | f4a test torch.nanmedian done
+2025-08-08 15:17:24.297 | INFO     | f4a test torch.slice_inverse begin
+2025-08-08 15:22:37.997 | INFO     | Coverage now: 158972
+2025-08-08 15:22:37.997 | INFO     | f4a test torch.slice_inverse done
+2025-08-08 15:22:37.997 | INFO     | f4a test torch.as_strided_ begin
+2025-08-08 15:27:20.544 | INFO     | Coverage now: 158972
+2025-08-08 15:27:20.545 | INFO     | f4a test torch.as_strided_ done
+2025-08-08 15:27:20.545 | INFO     | f4a test torch.nn.utils.parametrize.cached begin
+2025-08-08 15:32:01.362 | INFO     | Coverage now: 158972
+2025-08-08 15:32:01.362 | INFO     | f4a test torch.nn.utils.parametrize.cached done
+2025-08-08 15:32:01.362 | INFO     | f4a test torch.utils.data.graph_settings.apply_random_seed begin
+2025-08-08 15:37:04.906 | INFO     | Coverage now: 158972
+2025-08-08 15:37:04.906 | INFO     | f4a test torch.utils.data.graph_settings.apply_random_seed done
+2025-08-08 15:37:04.906 | INFO     | f4a test torch.max_pool2d begin
+2025-08-08 15:42:04.082 | INFO     | Coverage now: 158995
+2025-08-08 15:42:04.082 | INFO     | f4a test torch.max_pool2d done
+2025-08-08 15:42:04.082 | INFO     | f4a test torch.utils.collect_env.get_cudnn_version begin
+2025-08-08 15:46:57.122 | INFO     | Coverage now: 158998
+2025-08-08 15:46:57.123 | INFO     | f4a test torch.utils.collect_env.get_cudnn_version done
+2025-08-08 15:46:57.123 | INFO     | f4a test torch.ao.quantization.utils.validate_qmin_qmax begin
+2025-08-08 15:52:17.908 | INFO     | Coverage now: 158998
+2025-08-08 15:52:17.909 | INFO     | f4a test torch.ao.quantization.utils.validate_qmin_qmax done
+2025-08-08 15:52:17.909 | INFO     | f4a test torch.cuda.profiler.init begin
+2025-08-08 15:57:19.675 | INFO     | Coverage now: 159005
+2025-08-08 15:57:19.675 | INFO     | f4a test torch.cuda.profiler.init done
+2025-08-08 15:57:19.675 | INFO     | f4a test torch.nn.init.kaiming_uniform_ begin
+2025-08-08 16:02:06.829 | INFO     | Coverage now: 159061
+2025-08-08 16:02:06.829 | INFO     | f4a test torch.nn.init.kaiming_uniform_ done
+2025-08-08 16:02:06.830 | INFO     | f4a test torch.backends.cudnn.set_flags begin
+2025-08-08 16:07:26.454 | INFO     | Coverage now: 159064
+2025-08-08 16:07:26.455 | INFO     | f4a test torch.backends.cudnn.set_flags done
+2025-08-08 16:07:26.455 | INFO     | f4a test torch.as_tensor begin
+2025-08-08 16:12:10.244 | INFO     | Coverage now: 159064
+2025-08-08 16:12:10.244 | INFO     | f4a test torch.as_tensor done
+2025-08-08 16:12:10.245 | INFO     | f4a test torch.autograd.functional.jacobian begin
+2025-08-08 16:17:10.851 | INFO     | Coverage now: 159146
+2025-08-08 16:17:10.852 | INFO     | f4a test torch.autograd.functional.jacobian done
+2025-08-08 16:17:10.852 | INFO     | f4a test torch.orgqr begin
+2025-08-08 16:22:24.054 | INFO     | Coverage now: 159442
+2025-08-08 16:22:24.054 | INFO     | f4a test torch.orgqr done
+2025-08-08 16:22:24.055 | INFO     | f4a test torch.fx.experimental.proxy_tensor.thunkify begin
+2025-08-08 16:27:39.511 | INFO     | Coverage now: 159442
+2025-08-08 16:27:39.511 | INFO     | f4a test torch.fx.experimental.proxy_tensor.thunkify done
+2025-08-08 16:27:39.512 | INFO     | f4a test torch.jit.export_opnames begin
+2025-08-08 16:32:43.113 | INFO     | Coverage now: 159442
+2025-08-08 16:32:43.113 | INFO     | f4a test torch.jit.export_opnames done
+2025-08-08 16:32:43.114 | INFO     | f4a test torch.bitwise_left_shift begin
+2025-08-08 16:37:45.216 | INFO     | Coverage now: 159443
+2025-08-08 16:37:45.216 | INFO     | f4a test torch.bitwise_left_shift done
+2025-08-08 16:37:45.216 | INFO     | f4a test torch.not_equal begin
+2025-08-08 16:43:14.073 | INFO     | Coverage now: 159443
+2025-08-08 16:43:14.073 | INFO     | f4a test torch.not_equal done
+2025-08-08 16:43:14.073 | INFO     | f4a test torch.lcm begin
+2025-08-08 16:48:38.805 | INFO     | Coverage now: 159443
+2025-08-08 16:48:38.805 | INFO     | f4a test torch.lcm done
+2025-08-08 16:48:38.806 | INFO     | f4a test torch.cuda.memory.memory_summary begin
+2025-08-08 16:53:31.817 | INFO     | Coverage now: 159496
+2025-08-08 16:53:31.817 | INFO     | f4a test torch.cuda.memory.memory_summary done
+2025-08-08 16:53:31.817 | INFO     | f4a test torch.serialization.validate_hpu_device begin
+2025-08-08 16:59:08.994 | INFO     | Coverage now: 159496
+2025-08-08 16:59:08.995 | INFO     | f4a test torch.serialization.validate_hpu_device done
+2025-08-08 16:59:08.995 | INFO     | f4a test torch.nn.modules.module.register_module_buffer_registration_hook begin
+2025-08-08 17:04:26.651 | INFO     | Coverage now: 159496
+2025-08-08 17:04:26.651 | INFO     | f4a test torch.nn.modules.module.register_module_buffer_registration_hook done

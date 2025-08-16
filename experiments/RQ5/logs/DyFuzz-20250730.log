@@ -1,0 +1,605 @@
+2025-07-30 04:50:42.233 | INFO     | __main__:<module>:178 - DyFuzz test difflib
+2025-07-30 04:50:42.234 | INFO     | __main__:<module>:181 - skip 1 apis
+2025-07-30 04:50:42.234 | INFO     | __main__:<module>:182 - difflib has 1 apis
+2025-07-30 04:50:42.234 | INFO     | __main__:<module>:189 - Fuzz difflib.unified_diff start
+2025-07-30 04:50:42.234 | INFO     | __main__:<module>:191 - run difflib unified_diff 8
+2025-07-30 04:50:42.331 | INFO     | __main__:fuzzapi:229 - Coverage increased 76, now: 76
+2025-07-30 04:51:34.202 | INFO     | __main__:<module>:199 - Fuzz difflib.unified_diff done
+2025-07-30 04:51:34.203 | INFO     | __main__:<module>:200 - Coverage now: 76
+2025-07-30 04:51:34.203 | INFO     | __main__:<module>:205 - Dyfuzz done difflib
+2025-07-30 04:51:34.203 | INFO     | __main__:<module>:178 - DyFuzz test re
+2025-07-30 04:51:34.204 | INFO     | __main__:<module>:181 - skip 1 apis
+2025-07-30 04:51:34.204 | INFO     | __main__:<module>:182 - re has 1 apis
+2025-07-30 04:51:34.204 | INFO     | __main__:<module>:189 - Fuzz re.purge start
+2025-07-30 04:51:34.204 | INFO     | __main__:<module>:191 - run re purge 0
+2025-07-30 04:51:34.316 | INFO     | __main__:<module>:199 - Fuzz re.purge done
+2025-07-30 04:51:34.317 | INFO     | __main__:<module>:200 - Coverage now: 76
+2025-07-30 04:51:34.317 | INFO     | __main__:<module>:205 - Dyfuzz done re
+2025-07-30 04:51:34.317 | INFO     | __main__:<module>:178 - DyFuzz test locale
+2025-07-30 04:51:34.318 | INFO     | __main__:<module>:181 - skip 1 apis
+2025-07-30 04:51:34.318 | INFO     | __main__:<module>:182 - locale has 1 apis
+2025-07-30 04:51:34.318 | INFO     | __main__:<module>:189 - Fuzz locale.normalize start
+2025-07-30 04:51:34.318 | INFO     | __main__:<module>:191 - run locale normalize 1
+2025-07-30 04:51:53.071 | INFO     | __main__:<module>:199 - Fuzz locale.normalize done
+2025-07-30 04:51:53.072 | INFO     | __main__:<module>:200 - Coverage now: 76
+2025-07-30 04:51:53.072 | INFO     | __main__:<module>:205 - Dyfuzz done locale
+2025-07-30 04:51:53.072 | INFO     | __main__:<module>:178 - DyFuzz test ast
+2025-07-30 04:51:53.072 | INFO     | __main__:<module>:181 - skip 1 apis
+2025-07-30 04:51:53.072 | INFO     | __main__:<module>:182 - ast has 1 apis
+2025-07-30 04:51:53.072 | INFO     | __main__:<module>:189 - Fuzz ast.get_source_segment start
+2025-07-30 04:51:53.073 | INFO     | __main__:<module>:191 - run ast get_source_segment 3
+2025-07-30 04:52:15.378 | INFO     | __main__:<module>:199 - Fuzz ast.get_source_segment done
+2025-07-30 04:52:15.379 | INFO     | __main__:<module>:200 - Coverage now: 76
+2025-07-30 04:52:15.379 | INFO     | __main__:<module>:205 - Dyfuzz done ast
+2025-07-30 04:52:15.379 | INFO     | __main__:<module>:178 - DyFuzz test sklearn
+2025-07-30 04:52:15.380 | INFO     | __main__:<module>:181 - skip 1 apis
+2025-07-30 04:52:15.380 | INFO     | __main__:<module>:182 - sklearn has 1 apis
+2025-07-30 04:52:15.380 | INFO     | __main__:<module>:189 - Fuzz sklearn.feature_extraction.image.img_to_graph start
+2025-07-30 04:52:15.380 | INFO     | __main__:<module>:191 - run sklearn feature_extraction.image.img_to_graph 0
+2025-07-30 04:52:16.497 | INFO     | __main__:fuzzapi:229 - Coverage increased 2510, now: 2586
+2025-07-30 04:52:16.675 | INFO     | __main__:<module>:199 - Fuzz sklearn.feature_extraction.image.img_to_graph done
+2025-07-30 04:52:16.675 | INFO     | __main__:<module>:200 - Coverage now: 2586
+2025-07-30 04:52:16.676 | INFO     | __main__:<module>:205 - Dyfuzz done sklearn
+2025-07-30 04:52:16.676 | INFO     | __main__:<module>:178 - DyFuzz test inspect
+2025-07-30 04:52:16.676 | INFO     | __main__:<module>:181 - skip 1 apis
+2025-07-30 04:52:16.676 | INFO     | __main__:<module>:182 - inspect has 1 apis
+2025-07-30 04:52:16.676 | INFO     | __main__:<module>:189 - Fuzz inspect.currentframe start
+2025-07-30 04:52:16.676 | INFO     | __main__:<module>:191 - run inspect currentframe 0
+2025-07-30 04:52:16.786 | INFO     | __main__:<module>:199 - Fuzz inspect.currentframe done
+2025-07-30 04:52:16.787 | INFO     | __main__:<module>:200 - Coverage now: 2586
+2025-07-30 04:52:16.787 | INFO     | __main__:<module>:205 - Dyfuzz done inspect
+2025-07-30 04:52:16.787 | INFO     | __main__:<module>:178 - DyFuzz test scipy
+2025-07-30 04:52:16.787 | INFO     | __main__:<module>:181 - skip 1 apis
+2025-07-30 04:52:16.788 | INFO     | __main__:<module>:182 - scipy has 2 apis
+2025-07-30 04:52:16.788 | INFO     | __main__:<module>:189 - Fuzz scipy.spatial.distance.correlation start
+2025-07-30 04:52:16.788 | INFO     | __main__:<module>:191 - run scipy spatial.distance.correlation 4
+2025-07-30 04:52:17.198 | INFO     | __main__:fuzzapi:229 - Coverage increased 4263, now: 6849
+2025-07-30 04:52:19.406 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 6851
+2025-07-30 04:53:43.546 | INFO     | __main__:<module>:199 - Fuzz scipy.spatial.distance.correlation done
+2025-07-30 04:53:43.546 | INFO     | __main__:<module>:200 - Coverage now: 6851
+2025-07-30 04:53:43.546 | INFO     | __main__:<module>:189 - Fuzz scipy.spatial.distance.braycurtis start
+2025-07-30 04:53:43.546 | INFO     | __main__:<module>:191 - run scipy spatial.distance.braycurtis 3
+2025-07-30 04:53:44.024 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 6852
+2025-07-30 04:53:49.346 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 6853
+2025-07-30 04:54:35.913 | INFO     | __main__:<module>:199 - Fuzz scipy.spatial.distance.braycurtis done
+2025-07-30 04:54:35.913 | INFO     | __main__:<module>:200 - Coverage now: 6853
+2025-07-30 04:54:35.913 | INFO     | __main__:<module>:205 - Dyfuzz done scipy
+2025-07-30 04:54:35.913 | INFO     | __main__:<module>:178 - DyFuzz test dask
+2025-07-30 04:54:35.914 | INFO     | __main__:<module>:181 - skip 1 apis
+2025-07-30 04:54:35.914 | INFO     | __main__:<module>:182 - dask has 5 apis
+2025-07-30 04:54:35.914 | INFO     | __main__:<module>:189 - Fuzz dask.config.collect start
+2025-07-30 04:54:35.914 | INFO     | __main__:<module>:191 - run dask config.collect 2
+2025-07-30 04:54:36.125 | INFO     | __main__:fuzzapi:229 - Coverage increased 1789, now: 8642
+2025-07-30 04:54:46.970 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 8643
+2025-07-30 04:55:21.677 | INFO     | __main__:fuzzapi:229 - Coverage increased 8, now: 8651
+2025-07-30 04:55:56.119 | INFO     | __main__:fuzzapi:229 - Coverage increased 5, now: 8656
+2025-07-30 04:56:57.240 | INFO     | __main__:<module>:199 - Fuzz dask.config.collect done
+2025-07-30 04:56:57.241 | INFO     | __main__:<module>:200 - Coverage now: 8656
+2025-07-30 04:56:57.241 | INFO     | __main__:<module>:189 - Fuzz dask.sizeof.sizeof_memoryview start
+2025-07-30 04:56:57.241 | INFO     | __main__:<module>:191 - run dask sizeof.sizeof_memoryview 1
+2025-07-30 04:56:57.438 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 8657
+2025-07-30 04:57:22.840 | INFO     | __main__:<module>:199 - Fuzz dask.sizeof.sizeof_memoryview done
+2025-07-30 04:57:22.840 | INFO     | __main__:<module>:200 - Coverage now: 8657
+2025-07-30 04:57:22.841 | INFO     | __main__:<module>:189 - Fuzz dask.utils.random_state_data start
+2025-07-30 04:57:22.841 | INFO     | __main__:<module>:191 - run dask utils.random_state_data 2
+2025-07-30 04:57:23.117 | INFO     | __main__:fuzzapi:229 - Coverage increased 5, now: 8662
+2025-07-30 05:01:27.521 | INFO     | __main__:fuzzapi:229 - Coverage increased 3, now: 8665
+2025-07-30 05:09:08.677 | INFO     | __main__:<module>:199 - Fuzz dask.utils.random_state_data done
+2025-07-30 05:09:08.677 | INFO     | __main__:<module>:200 - Coverage now: 8665
+2025-07-30 05:09:08.677 | INFO     | __main__:<module>:189 - Fuzz dask.config.serialize start
+2025-07-30 05:09:08.677 | INFO     | __main__:<module>:191 - run dask config.serialize 1
+2025-07-30 05:09:08.849 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 8666
+2025-07-30 05:09:32.845 | INFO     | __main__:<module>:199 - Fuzz dask.config.serialize done
+2025-07-30 05:09:32.846 | INFO     | __main__:<module>:200 - Coverage now: 8666
+2025-07-30 05:09:32.847 | INFO     | __main__:<module>:189 - Fuzz dask.hashing.hash_buffer start
+2025-07-30 05:09:32.847 | INFO     | __main__:<module>:191 - run dask hashing.hash_buffer 2
+2025-07-30 05:09:33.033 | INFO     | __main__:fuzzapi:229 - Coverage increased 7, now: 8673
+2025-07-30 05:10:02.248 | INFO     | __main__:<module>:199 - Fuzz dask.hashing.hash_buffer done
+2025-07-30 05:10:02.249 | INFO     | __main__:<module>:200 - Coverage now: 8673
+2025-07-30 05:10:02.249 | INFO     | __main__:<module>:205 - Dyfuzz done dask
+2025-07-30 05:10:02.249 | INFO     | __main__:<module>:178 - DyFuzz test nltk
+2025-07-30 05:10:02.249 | INFO     | __main__:<module>:181 - skip 1 apis
+2025-07-30 05:10:02.250 | INFO     | __main__:<module>:182 - nltk has 12 apis
+2025-07-30 05:10:02.250 | INFO     | __main__:<module>:189 - Fuzz nltk.chunk.util.conlltags2tree start
+2025-07-30 05:10:02.250 | INFO     | __main__:<module>:191 - run nltk chunk.util.conlltags2tree 4
+2025-07-30 05:10:09.818 | INFO     | __main__:fuzzapi:229 - Coverage increased 4320, now: 12993
+2025-07-30 05:10:12.929 | INFO     | __main__:fuzzapi:229 - Coverage increased 6969, now: 19962
+2025-07-30 05:10:50.575 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 19963
+2025-07-30 05:11:33.942 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 19964
+2025-07-30 05:12:57.136 | INFO     | __main__:<module>:199 - Fuzz nltk.chunk.util.conlltags2tree done
+2025-07-30 05:12:57.136 | INFO     | __main__:<module>:200 - Coverage now: 19964
+2025-07-30 05:12:57.137 | INFO     | __main__:<module>:189 - Fuzz nltk.metrics.distance.jaro_similarity start
+2025-07-30 05:12:57.137 | INFO     | __main__:<module>:191 - run nltk metrics.distance.jaro_similarity 2
+2025-07-30 05:15:26.350 | INFO     | __main__:<module>:199 - Fuzz nltk.metrics.distance.jaro_similarity done
+2025-07-30 05:15:26.351 | INFO     | __main__:<module>:200 - Coverage now: 19964
+2025-07-30 05:15:26.351 | INFO     | __main__:<module>:189 - Fuzz nltk.classify.util.wsd_demo start
+2025-07-30 05:15:26.351 | INFO     | __main__:<module>:191 - run nltk classify.util.wsd_demo 4
+2025-07-30 05:15:27.680 | INFO     | __main__:fuzzapi:229 - Coverage increased 62, now: 20026
+2025-07-30 05:17:56.231 | INFO     | __main__:<module>:199 - Fuzz nltk.classify.util.wsd_demo done
+2025-07-30 05:17:56.232 | INFO     | __main__:<module>:200 - Coverage now: 20026
+2025-07-30 05:17:56.232 | INFO     | __main__:<module>:189 - Fuzz nltk.lm.preprocessing.padded_everygram_pipeline start
+2025-07-30 05:17:56.232 | INFO     | __main__:<module>:191 - run nltk lm.preprocessing.padded_everygram_pipeline 2
+2025-07-30 05:17:57.491 | INFO     | __main__:fuzzapi:229 - Coverage increased 4, now: 20030
+2025-07-30 05:20:09.983 | INFO     | __main__:<module>:199 - Fuzz nltk.lm.preprocessing.padded_everygram_pipeline done
+2025-07-30 05:20:09.984 | INFO     | __main__:<module>:200 - Coverage now: 20030
+2025-07-30 05:20:09.984 | INFO     | __main__:<module>:189 - Fuzz nltk.data.normalize_resource_name start
+2025-07-30 05:20:09.984 | INFO     | __main__:<module>:191 - run nltk data.normalize_resource_name 3
+2025-07-30 05:22:48.747 | INFO     | __main__:<module>:199 - Fuzz nltk.data.normalize_resource_name done
+2025-07-30 05:22:48.748 | INFO     | __main__:<module>:200 - Coverage now: 20030
+2025-07-30 05:22:48.748 | INFO     | __main__:<module>:189 - Fuzz nltk.chunk.ne_chunker start
+2025-07-30 05:22:48.748 | INFO     | __main__:<module>:191 - run nltk chunk.ne_chunker 1
+2025-07-30 05:22:50.088 | INFO     | __main__:fuzzapi:229 - Coverage increased 3, now: 20033
+2025-07-30 05:25:32.502 | INFO     | __main__:<module>:199 - Fuzz nltk.chunk.ne_chunker done
+2025-07-30 05:25:32.503 | INFO     | __main__:<module>:200 - Coverage now: 20033
+2025-07-30 05:25:32.503 | INFO     | __main__:<module>:189 - Fuzz nltk.internals.find_binary_iter start
+2025-07-30 05:25:32.503 | INFO     | __main__:<module>:191 - run nltk internals.find_binary_iter 7
+2025-07-30 05:27:52.801 | INFO     | __main__:<module>:199 - Fuzz nltk.internals.find_binary_iter done
+2025-07-30 05:27:52.801 | INFO     | __main__:<module>:200 - Coverage now: 20033
+2025-07-30 05:27:52.802 | INFO     | __main__:<module>:189 - Fuzz nltk.tokenize.texttiling.smooth start
+2025-07-30 05:27:52.802 | INFO     | __main__:<module>:191 - run nltk tokenize.texttiling.smooth 3
+2025-07-30 05:27:54.096 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 20034
+2025-07-30 05:30:20.340 | INFO     | __main__:<module>:199 - Fuzz nltk.tokenize.texttiling.smooth done
+2025-07-30 05:30:20.340 | INFO     | __main__:<module>:200 - Coverage now: 20034
+2025-07-30 05:30:20.341 | INFO     | __main__:<module>:189 - Fuzz nltk.demo start
+2025-07-30 05:30:20.341 | INFO     | __main__:<module>:191 - run nltk demo 0
+2025-07-30 05:30:21.590 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 20035
+2025-07-30 05:30:21.733 | INFO     | __main__:<module>:199 - Fuzz nltk.demo done
+2025-07-30 05:30:21.734 | INFO     | __main__:<module>:200 - Coverage now: 20035
+2025-07-30 05:30:21.734 | INFO     | __main__:<module>:189 - Fuzz nltk.parse.nonprojectivedependencyparser.demo start
+2025-07-30 05:30:21.734 | INFO     | __main__:<module>:191 - run nltk parse.nonprojectivedependencyparser.demo 0
+2025-07-30 05:30:23.045 | INFO     | __main__:fuzzapi:229 - Coverage increased 429, now: 20464
+2025-07-30 05:30:23.196 | INFO     | __main__:<module>:199 - Fuzz nltk.parse.nonprojectivedependencyparser.demo done
+2025-07-30 05:30:23.197 | INFO     | __main__:<module>:200 - Coverage now: 20464
+2025-07-30 05:30:23.197 | INFO     | __main__:<module>:189 - Fuzz nltk.classify.util.accuracy start
+2025-07-30 05:30:23.197 | INFO     | __main__:<module>:191 - run nltk classify.util.accuracy 2
+2025-07-30 05:30:24.482 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 20465
+2025-07-30 05:32:40.414 | INFO     | __main__:<module>:199 - Fuzz nltk.classify.util.accuracy done
+2025-07-30 05:32:40.415 | INFO     | __main__:<module>:200 - Coverage now: 20465
+2025-07-30 05:32:40.415 | INFO     | __main__:<module>:189 - Fuzz nltk.inference.resolution.clausify start
+2025-07-30 05:32:40.415 | INFO     | __main__:<module>:191 - run nltk inference.resolution.clausify 1
+2025-07-30 05:32:41.695 | INFO     | __main__:fuzzapi:229 - Coverage increased 16, now: 20481
+2025-07-30 05:35:10.359 | INFO     | __main__:<module>:199 - Fuzz nltk.inference.resolution.clausify done
+2025-07-30 05:35:10.360 | INFO     | __main__:<module>:200 - Coverage now: 20481
+2025-07-30 05:35:10.360 | INFO     | __main__:<module>:205 - Dyfuzz done nltk
+2025-07-30 05:35:10.361 | INFO     | __main__:<module>:178 - DyFuzz test pandas
+2025-07-30 05:35:10.361 | INFO     | __main__:<module>:181 - skip 1 apis
+2025-07-30 05:35:10.361 | INFO     | __main__:<module>:182 - pandas has 15 apis
+2025-07-30 05:35:10.361 | INFO     | __main__:<module>:189 - Fuzz pandas.core.arrays.categorical.contains start
+2025-07-30 05:35:10.362 | INFO     | __main__:<module>:191 - run pandas core.arrays.categorical.contains 3
+2025-07-30 05:35:11.171 | INFO     | __main__:fuzzapi:229 - Coverage increased 25327, now: 45808
+2025-07-30 05:36:41.512 | INFO     | __main__:<module>:199 - Fuzz pandas.core.arrays.categorical.contains done
+2025-07-30 05:36:41.512 | INFO     | __main__:<module>:200 - Coverage now: 45808
+2025-07-30 05:36:41.513 | INFO     | __main__:<module>:189 - Fuzz pandas.core.computation.expressions.where start
+2025-07-30 05:36:41.513 | INFO     | __main__:<module>:191 - run pandas core.computation.expressions.where 4
+2025-07-30 05:36:42.459 | INFO     | __main__:fuzzapi:229 - Coverage increased 3, now: 45811
+Killed
+2025-07-30 05:41:58.491 | INFO     | __main__:<module>:199 - Fuzz pandas.core.computation.expressions.where done
+2025-07-30 05:41:58.492 | INFO     | __main__:<module>:200 - Coverage now: 45811
+2025-07-30 05:41:58.492 | INFO     | __main__:<module>:189 - Fuzz pandas.io.sql.execute start
+2025-07-30 05:41:58.493 | INFO     | __main__:<module>:191 - run pandas io.sql.execute 3
+2025-07-30 05:41:59.389 | INFO     | __main__:fuzzapi:229 - Coverage increased 39, now: 45850
+2025-07-30 05:42:04.132 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 45851
+2025-07-30 05:42:17.907 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 45852
+2025-07-30 05:42:23.381 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 45854
+2025-07-30 05:43:51.406 | INFO     | __main__:<module>:199 - Fuzz pandas.io.sql.execute done
+2025-07-30 05:43:51.406 | INFO     | __main__:<module>:200 - Coverage now: 45854
+2025-07-30 05:43:51.407 | INFO     | __main__:<module>:189 - Fuzz pandas.core.groupby.grouper.get_grouper start
+2025-07-30 05:43:51.407 | INFO     | __main__:<module>:191 - run pandas core.groupby.grouper.get_grouper 8
+2025-07-30 05:43:52.277 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 45855
+2025-07-30 05:45:38.743 | INFO     | __main__:<module>:199 - Fuzz pandas.core.groupby.grouper.get_grouper done
+2025-07-30 05:45:38.744 | INFO     | __main__:<module>:200 - Coverage now: 45855
+2025-07-30 05:45:38.744 | INFO     | __main__:<module>:189 - Fuzz pandas.io.parsers.readers.read_table start
+2025-07-30 05:45:38.744 | INFO     | __main__:<module>:191 - run pandas io.parsers.readers.read_table 49
+2025-07-30 05:47:52.316 | INFO     | __main__:<module>:199 - Fuzz pandas.io.parsers.readers.read_table done
+2025-07-30 05:47:52.317 | INFO     | __main__:<module>:200 - Coverage now: 45855
+2025-07-30 05:47:52.317 | INFO     | __main__:<module>:189 - Fuzz pandas.compat.is_platform_mac start
+2025-07-30 05:47:52.318 | INFO     | __main__:<module>:191 - run pandas compat.is_platform_mac 0
+2025-07-30 05:47:53.154 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 45856
+2025-07-30 05:47:53.221 | INFO     | __main__:<module>:199 - Fuzz pandas.compat.is_platform_mac done
+2025-07-30 05:47:53.222 | INFO     | __main__:<module>:200 - Coverage now: 45856
+2025-07-30 05:47:53.222 | INFO     | __main__:<module>:189 - Fuzz pandas.io.formats.format.get_level_lengths start
+2025-07-30 05:47:53.222 | INFO     | __main__:<module>:191 - run pandas io.formats.format.get_level_lengths 2
+2025-07-30 05:47:55.709 | INFO     | __main__:fuzzapi:229 - Coverage increased 14, now: 45870
+2025-07-30 05:48:11.185 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 45871
+2025-07-30 05:49:55.675 | INFO     | __main__:<module>:199 - Fuzz pandas.io.formats.format.get_level_lengths done
+2025-07-30 05:49:55.676 | INFO     | __main__:<module>:200 - Coverage now: 45871
+2025-07-30 05:49:55.677 | INFO     | __main__:<module>:189 - Fuzz pandas.io.common.is_fsspec_url start
+2025-07-30 05:49:55.677 | INFO     | __main__:<module>:191 - run pandas io.common.is_fsspec_url 1
+2025-07-30 05:49:56.522 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 45873
+2025-07-30 05:50:18.013 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 45874
+2025-07-30 05:51:30.336 | INFO     | __main__:<module>:199 - Fuzz pandas.io.common.is_fsspec_url done
+2025-07-30 05:51:30.336 | INFO     | __main__:<module>:200 - Coverage now: 45874
+2025-07-30 05:51:30.337 | INFO     | __main__:<module>:189 - Fuzz pandas.core.nanops.nanmedian start
+2025-07-30 05:51:30.337 | INFO     | __main__:<module>:191 - run pandas core.nanops.nanmedian 3
+2025-07-30 05:53:02.240 | INFO     | __main__:<module>:199 - Fuzz pandas.core.nanops.nanmedian done
+2025-07-30 05:53:02.240 | INFO     | __main__:<module>:200 - Coverage now: 45874
+2025-07-30 05:53:02.241 | INFO     | __main__:<module>:189 - Fuzz pandas.core.nanops.reduction start
+2025-07-30 05:53:02.241 | INFO     | __main__:<module>:191 - run pandas core.nanops.reduction 3
+2025-07-30 05:54:38.940 | INFO     | __main__:<module>:199 - Fuzz pandas.core.nanops.reduction done
+2025-07-30 05:54:38.940 | INFO     | __main__:<module>:200 - Coverage now: 45874
+2025-07-30 05:54:38.941 | INFO     | __main__:<module>:189 - Fuzz pandas.core.sorting.lexsort_indexer start
+2025-07-30 05:54:38.941 | INFO     | __main__:<module>:191 - run pandas core.sorting.lexsort_indexer 5
+2025-07-30 05:54:39.808 | INFO     | __main__:fuzzapi:229 - Coverage increased 3, now: 45877
+2025-07-30 05:56:42.234 | INFO     | __main__:<module>:199 - Fuzz pandas.core.sorting.lexsort_indexer done
+2025-07-30 05:56:42.235 | INFO     | __main__:<module>:200 - Coverage now: 45877
+2025-07-30 05:56:42.236 | INFO     | __main__:<module>:189 - Fuzz pandas.core.reshape.encoding.get_dummies start
+2025-07-30 05:56:42.236 | INFO     | __main__:<module>:191 - run pandas core.reshape.encoding.get_dummies 8
+2025-07-30 05:56:43.292 | INFO     | __main__:fuzzapi:229 - Coverage increased 499, now: 46376
+2025-07-30 05:56:44.228 | INFO     | __main__:fuzzapi:229 - Coverage increased 5, now: 46381
+2025-07-30 05:56:45.229 | INFO     | __main__:fuzzapi:229 - Coverage increased 35, now: 46416
+2025-07-30 05:56:50.400 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 46417
+2025-07-30 05:56:51.342 | INFO     | __main__:fuzzapi:229 - Coverage increased 13, now: 46430
+2025-07-30 05:56:52.443 | INFO     | __main__:fuzzapi:229 - Coverage increased 3, now: 46433
+2025-07-30 05:56:53.398 | INFO     | __main__:fuzzapi:229 - Coverage increased 5, now: 46438
+2025-07-30 05:56:56.405 | INFO     | __main__:fuzzapi:229 - Coverage increased 3, now: 46441
+2025-07-30 05:56:59.206 | INFO     | __main__:fuzzapi:229 - Coverage increased 41, now: 46482
+2025-07-30 05:57:01.359 | INFO     | __main__:fuzzapi:229 - Coverage increased 58, now: 46540
+2025-07-30 05:57:14.416 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 46541
+2025-07-30 05:57:40.761 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 46543
+2025-07-30 05:57:57.935 | INFO     | __main__:fuzzapi:229 - Coverage increased 10, now: 46553
+2025-07-30 05:58:21.965 | INFO     | __main__:fuzzapi:229 - Coverage increased 419, now: 46972
+2025-07-30 05:58:43.617 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 46973
+2025-07-30 05:59:08.405 | INFO     | __main__:<module>:199 - Fuzz pandas.core.reshape.encoding.get_dummies done
+2025-07-30 05:59:08.406 | INFO     | __main__:<module>:200 - Coverage now: 46973
+2025-07-30 05:59:08.406 | INFO     | __main__:<module>:189 - Fuzz pandas.core.nanops.get_corr_func start
+2025-07-30 05:59:08.406 | INFO     | __main__:<module>:191 - run pandas core.nanops.get_corr_func 1
+2025-07-30 05:59:09.331 | INFO     | __main__:fuzzapi:229 - Coverage increased 6, now: 46979
+2025-07-30 05:59:14.838 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 46980
+2025-07-30 06:00:48.032 | INFO     | __main__:<module>:199 - Fuzz pandas.core.nanops.get_corr_func done
+2025-07-30 06:00:48.033 | INFO     | __main__:<module>:200 - Coverage now: 46980
+2025-07-30 06:00:48.033 | INFO     | __main__:<module>:189 - Fuzz pandas.core.sample.preprocess_weights start
+2025-07-30 06:00:48.034 | INFO     | __main__:<module>:191 - run pandas core.sample.preprocess_weights 3
+2025-07-30 06:00:48.890 | INFO     | __main__:fuzzapi:229 - Coverage increased 4, now: 46984
+2025-07-30 06:00:50.733 | INFO     | __main__:fuzzapi:229 - Coverage increased 3, now: 46987
+2025-07-30 06:02:34.515 | INFO     | __main__:<module>:199 - Fuzz pandas.core.sample.preprocess_weights done
+2025-07-30 06:02:34.516 | INFO     | __main__:<module>:200 - Coverage now: 46987
+2025-07-30 06:02:34.516 | INFO     | __main__:<module>:189 - Fuzz pandas.core.dtypes.cast.find_common_type start
+2025-07-30 06:02:34.517 | INFO     | __main__:<module>:191 - run pandas core.dtypes.cast.find_common_type 1
+2025-07-30 06:02:35.352 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 46989
+2025-07-30 06:02:42.839 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 46990
+2025-07-30 06:02:50.129 | INFO     | __main__:fuzzapi:229 - Coverage increased 6, now: 46996
+2025-07-30 06:02:52.034 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 46997
+2025-07-30 06:04:12.240 | INFO     | __main__:<module>:199 - Fuzz pandas.core.dtypes.cast.find_common_type done
+2025-07-30 06:04:12.240 | INFO     | __main__:<module>:200 - Coverage now: 46997
+2025-07-30 06:04:12.241 | INFO     | __main__:<module>:205 - Dyfuzz done pandas
+2025-07-30 06:04:12.241 | INFO     | __main__:<module>:178 - DyFuzz test numpy
+2025-07-30 06:04:12.241 | INFO     | __main__:<module>:181 - skip 1 apis
+2025-07-30 06:04:12.241 | INFO     | __main__:<module>:182 - numpy has 17 apis
+2025-07-30 06:04:12.242 | INFO     | __main__:<module>:189 - Fuzz numpy.f2py.capi_maps.cb_sign2map start
+2025-07-30 06:04:12.242 | INFO     | __main__:<module>:191 - run numpy f2py.capi_maps.cb_sign2map 3
+2025-07-30 06:04:12.684 | INFO     | __main__:fuzzapi:229 - Coverage increased 6211, now: 53208
+2025-07-30 06:04:18.104 | INFO     | __main__:fuzzapi:229 - Coverage increased 28, now: 53236
+2025-07-30 06:04:23.770 | INFO     | __main__:fuzzapi:229 - Coverage increased 10, now: 53246
+2025-07-30 06:04:28.089 | INFO     | __main__:fuzzapi:229 - Coverage increased 12, now: 53258
+2025-07-30 06:05:07.284 | INFO     | __main__:<module>:199 - Fuzz numpy.f2py.capi_maps.cb_sign2map done
+2025-07-30 06:05:07.285 | INFO     | __main__:<module>:200 - Coverage now: 53258
+2025-07-30 06:05:07.285 | INFO     | __main__:<module>:189 - Fuzz numpy.set_printoptions start
+2025-07-30 06:05:07.285 | INFO     | __main__:<module>:191 - run numpy set_printoptions 12
+2025-07-30 06:06:23.155 | INFO     | __main__:<module>:199 - Fuzz numpy.set_printoptions done
+2025-07-30 06:06:23.156 | INFO     | __main__:<module>:200 - Coverage now: 53258
+2025-07-30 06:06:23.156 | INFO     | __main__:<module>:189 - Fuzz numpy.lib.format.read_array_header_2_0 start
+2025-07-30 06:06:23.157 | INFO     | __main__:<module>:191 - run numpy lib.format.read_array_header_2_0 2
+2025-07-30 06:06:23.372 | INFO     | __main__:fuzzapi:229 - Coverage increased 13, now: 53271
+2025-07-30 06:07:28.603 | INFO     | __main__:<module>:199 - Fuzz numpy.lib.format.read_array_header_2_0 done
+2025-07-30 06:07:28.603 | INFO     | __main__:<module>:200 - Coverage now: 53271
+2025-07-30 06:07:28.604 | INFO     | __main__:<module>:189 - Fuzz numpy.lib.format.dtype_to_descr start
+2025-07-30 06:07:28.604 | INFO     | __main__:<module>:191 - run numpy lib.format.dtype_to_descr 1
+2025-07-30 06:07:28.819 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 53273
+2025-07-30 06:08:05.582 | INFO     | __main__:<module>:199 - Fuzz numpy.lib.format.dtype_to_descr done
+2025-07-30 06:08:05.582 | INFO     | __main__:<module>:200 - Coverage now: 53273
+2025-07-30 06:08:05.583 | INFO     | __main__:<module>:189 - Fuzz numpy.get_printoptions start
+2025-07-30 06:08:05.583 | INFO     | __main__:<module>:191 - run numpy get_printoptions 0
+2025-07-30 06:08:05.794 | INFO     | __main__:fuzzapi:229 - Coverage increased 5, now: 53278
+2025-07-30 06:08:05.819 | INFO     | __main__:<module>:199 - Fuzz numpy.get_printoptions done
+2025-07-30 06:08:05.820 | INFO     | __main__:<module>:200 - Coverage now: 53278
+2025-07-30 06:08:05.820 | INFO     | __main__:<module>:189 - Fuzz numpy.asmatrix start
+2025-07-30 06:08:05.820 | INFO     | __main__:<module>:191 - run numpy asmatrix 2
+2025-07-30 06:08:06.032 | INFO     | __main__:fuzzapi:229 - Coverage increased 12, now: 53290
+2025-07-30 06:08:06.850 | INFO     | __main__:fuzzapi:229 - Coverage increased 11, now: 53301
+2025-07-30 06:08:07.571 | INFO     | __main__:fuzzapi:229 - Coverage increased 17, now: 53318
+2025-07-30 06:08:11.091 | INFO     | __main__:fuzzapi:229 - Coverage increased 15, now: 53333
+2025-07-30 06:08:22.189 | INFO     | __main__:fuzzapi:229 - Coverage increased 9, now: 53342
+2025-07-30 06:08:58.165 | INFO     | __main__:<module>:199 - Fuzz numpy.asmatrix done
+2025-07-30 06:08:58.165 | INFO     | __main__:<module>:200 - Coverage now: 53342
+2025-07-30 06:08:58.165 | INFO     | __main__:<module>:189 - Fuzz numpy.polynomial.chebyshev.chebgrid2d start
+2025-07-30 06:08:58.165 | INFO     | __main__:<module>:191 - run numpy polynomial.chebyshev.chebgrid2d 3
+2025-07-30 06:08:58.755 | INFO     | __main__:fuzzapi:229 - Coverage increased 524, now: 53866
+2025-07-30 06:08:59.283 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 53868
+2025-07-30 06:09:00.048 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 53870
+2025-07-30 06:09:04.296 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 53871
+2025-07-30 06:09:05.981 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 53872
+2025-07-30 06:09:12.645 | INFO     | __main__:fuzzapi:229 - Coverage increased 5, now: 53877
+2025-07-30 06:09:41.928 | INFO     | __main__:<module>:199 - Fuzz numpy.polynomial.chebyshev.chebgrid2d done
+2025-07-30 06:09:41.928 | INFO     | __main__:<module>:200 - Coverage now: 53877
+2025-07-30 06:09:41.928 | INFO     | __main__:<module>:189 - Fuzz numpy.f2py.crackfortran.sortvarnames start
+2025-07-30 06:09:41.928 | INFO     | __main__:<module>:191 - run numpy f2py.crackfortran.sortvarnames 1
+2025-07-30 06:09:42.194 | INFO     | __main__:fuzzapi:229 - Coverage increased 3, now: 53880
+2025-07-30 06:09:47.752 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 53881
+2025-07-30 06:10:07.422 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 53882
+2025-07-30 06:10:14.889 | INFO     | __main__:<module>:199 - Fuzz numpy.f2py.crackfortran.sortvarnames done
+2025-07-30 06:10:14.890 | INFO     | __main__:<module>:200 - Coverage now: 53882
+2025-07-30 06:10:14.890 | INFO     | __main__:<module>:189 - Fuzz numpy.f2py.func2subr.assubr start
+2025-07-30 06:10:14.890 | INFO     | __main__:<module>:191 - run numpy f2py.func2subr.assubr 1
+2025-07-30 06:10:15.160 | INFO     | __main__:fuzzapi:229 - Coverage increased 3, now: 53885
+2025-07-30 06:10:17.703 | INFO     | __main__:fuzzapi:229 - Coverage increased 5, now: 53890
+2025-07-30 06:11:00.822 | INFO     | __main__:<module>:199 - Fuzz numpy.f2py.func2subr.assubr done
+2025-07-30 06:11:00.822 | INFO     | __main__:<module>:200 - Coverage now: 53890
+2025-07-30 06:11:00.823 | INFO     | __main__:<module>:189 - Fuzz numpy.ma.core.power start
+2025-07-30 06:11:00.823 | INFO     | __main__:<module>:191 - run numpy ma.core.power 3
+2025-07-30 06:11:01.060 | INFO     | __main__:fuzzapi:229 - Coverage increased 984, now: 54874
+2025-07-30 06:11:09.077 | INFO     | __main__:fuzzapi:229 - Coverage increased 27, now: 54901
+2025-07-30 06:11:55.532 | INFO     | __main__:<module>:199 - Fuzz numpy.ma.core.power done
+2025-07-30 06:11:55.533 | INFO     | __main__:<module>:200 - Coverage now: 54901
+2025-07-30 06:11:55.533 | INFO     | __main__:<module>:189 - Fuzz numpy.polynomial.hermite.hermsub start
+2025-07-30 06:11:55.534 | INFO     | __main__:<module>:191 - run numpy polynomial.hermite.hermsub 2
+2025-07-30 06:11:55.757 | INFO     | __main__:fuzzapi:229 - Coverage increased 6, now: 54907
+2025-07-30 06:11:56.003 | INFO     | __main__:fuzzapi:229 - Coverage increased 27, now: 54934
+2025-07-30 06:11:59.861 | INFO     | __main__:fuzzapi:229 - Coverage increased 5, now: 54939
+2025-07-30 06:12:00.514 | INFO     | __main__:fuzzapi:229 - Coverage increased 3, now: 54942
+2025-07-30 06:12:10.982 | INFO     | __main__:fuzzapi:229 - Coverage increased 3, now: 54945
+2025-07-30 06:12:19.728 | INFO     | __main__:fuzzapi:229 - Coverage increased 4, now: 54949
+2025-07-30 06:12:57.163 | INFO     | __main__:<module>:199 - Fuzz numpy.polynomial.hermite.hermsub done
+2025-07-30 06:12:57.163 | INFO     | __main__:<module>:200 - Coverage now: 54949
+2025-07-30 06:12:57.163 | INFO     | __main__:<module>:189 - Fuzz numpy.lib.format.descr_to_dtype start
+2025-07-30 06:12:57.163 | INFO     | __main__:<module>:191 - run numpy lib.format.descr_to_dtype 1
+2025-07-30 06:12:57.380 | INFO     | __main__:fuzzapi:229 - Coverage increased 8, now: 54957
+2025-07-30 06:13:02.998 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 54959
+2025-07-30 06:13:03.237 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 54961
+2025-07-30 06:13:05.579 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 54963
+2025-07-30 06:13:17.769 | INFO     | __main__:fuzzapi:229 - Coverage increased 8, now: 54971
+2025-07-30 06:13:47.569 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 54972
+2025-07-30 06:13:51.313 | INFO     | __main__:<module>:199 - Fuzz numpy.lib.format.descr_to_dtype done
+2025-07-30 06:13:51.314 | INFO     | __main__:<module>:200 - Coverage now: 54972
+2025-07-30 06:13:51.314 | INFO     | __main__:<module>:189 - Fuzz numpy.strings.title start
+2025-07-30 06:13:51.314 | INFO     | __main__:<module>:191 - run numpy strings.title 1
+2025-07-30 06:13:51.564 | INFO     | __main__:fuzzapi:229 - Coverage increased 69, now: 55041
+2025-07-30 06:14:31.247 | INFO     | __main__:<module>:199 - Fuzz numpy.strings.title done
+2025-07-30 06:14:31.247 | INFO     | __main__:<module>:200 - Coverage now: 55041
+2025-07-30 06:14:31.247 | INFO     | __main__:<module>:189 - Fuzz numpy.rec.fromrecords start
+2025-07-30 06:14:31.247 | INFO     | __main__:<module>:191 - run numpy rec.fromrecords 8
+2025-07-30 06:14:37.650 | INFO     | __main__:fuzzapi:229 - Coverage increased 7, now: 55048
+2025-07-30 06:14:38.101 | INFO     | __main__:fuzzapi:229 - Coverage increased 6, now: 55054
+2025-07-30 06:14:39.362 | INFO     | __main__:fuzzapi:229 - Coverage increased 6, now: 55060
+2025-07-30 06:14:42.245 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 55062
+2025-07-30 06:14:51.306 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 55064
+2025-07-30 06:14:55.831 | INFO     | __main__:fuzzapi:229 - Coverage increased 12, now: 55076
+2025-07-30 06:14:58.050 | INFO     | __main__:fuzzapi:229 - Coverage increased 11, now: 55087
+2025-07-30 06:15:02.820 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 55089
+2025-07-30 06:15:18.702 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 55091
+2025-07-30 06:15:34.244 | INFO     | __main__:<module>:199 - Fuzz numpy.rec.fromrecords done
+2025-07-30 06:15:34.244 | INFO     | __main__:<module>:200 - Coverage now: 55091
+2025-07-30 06:15:34.244 | INFO     | __main__:<module>:189 - Fuzz numpy.polynomial.laguerre.lagmulx start
+2025-07-30 06:15:34.244 | INFO     | __main__:<module>:191 - run numpy polynomial.laguerre.lagmulx 1
+2025-07-30 06:15:34.465 | INFO     | __main__:fuzzapi:229 - Coverage increased 7, now: 55098
+2025-07-30 06:15:43.851 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 55099
+2025-07-30 06:16:16.775 | INFO     | __main__:<module>:199 - Fuzz numpy.polynomial.laguerre.lagmulx done
+2025-07-30 06:16:16.775 | INFO     | __main__:<module>:200 - Coverage now: 55099
+2025-07-30 06:16:16.776 | INFO     | __main__:<module>:189 - Fuzz numpy.f2py.auxfuncs.getuseblocks start
+2025-07-30 06:16:16.776 | INFO     | __main__:<module>:191 - run numpy f2py.auxfuncs.getuseblocks 1
+2025-07-30 06:16:17.035 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 55101
+2025-07-30 06:16:45.951 | INFO     | __main__:<module>:199 - Fuzz numpy.f2py.auxfuncs.getuseblocks done
+2025-07-30 06:16:45.952 | INFO     | __main__:<module>:200 - Coverage now: 55101
+2025-07-30 06:16:45.952 | INFO     | __main__:<module>:189 - Fuzz numpy.seterr start
+2025-07-30 06:16:45.952 | INFO     | __main__:<module>:191 - run numpy seterr 5
+2025-07-30 06:16:46.184 | INFO     | __main__:fuzzapi:229 - Coverage increased 5, now: 55106
+2025-07-30 06:17:33.218 | INFO     | __main__:<module>:199 - Fuzz numpy.seterr done
+2025-07-30 06:17:33.219 | INFO     | __main__:<module>:200 - Coverage now: 55106
+2025-07-30 06:17:33.219 | INFO     | __main__:<module>:205 - Dyfuzz done numpy
+2025-07-30 06:17:33.219 | INFO     | __main__:<module>:178 - DyFuzz test torch
+2025-07-30 06:17:33.219 | INFO     | __main__:<module>:181 - skip 1 apis
+2025-07-30 06:17:33.219 | INFO     | __main__:<module>:182 - torch has 43 apis
+2025-07-30 06:17:33.220 | INFO     | __main__:<module>:189 - Fuzz torch.autograd.gradcheck.gradgradcheck start
+2025-07-30 06:17:33.220 | INFO     | __main__:<module>:191 - run torch autograd.gradcheck.gradgradcheck 16
+2025-07-30 06:17:40.381 | INFO     | __main__:fuzzapi:229 - Coverage increased 38160, now: 93266
+2025-07-30 06:17:49.530 | INFO     | __main__:fuzzapi:229 - Coverage increased 28, now: 93320
+2025-07-30 06:20:40.129 | INFO     | __main__:<module>:199 - Fuzz torch.autograd.gradcheck.gradgradcheck done
+2025-07-30 06:20:40.130 | INFO     | __main__:<module>:200 - Coverage now: 93320
+2025-07-30 06:20:40.130 | INFO     | __main__:<module>:189 - Fuzz torch.nn.modules.module.register_module_forward_hook start
+2025-07-30 06:20:40.131 | INFO     | __main__:<module>:191 - run torch nn.modules.module.register_module_forward_hook 2
+2025-07-30 06:24:07.739 | INFO     | __main__:<module>:199 - Fuzz torch.nn.modules.module.register_module_forward_hook done
+2025-07-30 06:24:07.740 | INFO     | __main__:<module>:200 - Coverage now: 93320
+2025-07-30 06:24:07.740 | INFO     | __main__:<module>:189 - Fuzz torch.cuda.tunable.get_results start
+2025-07-30 06:24:07.740 | INFO     | __main__:<module>:191 - run torch cuda.tunable.get_results 0
+2025-07-30 06:24:09.597 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 93321
+2025-07-30 06:24:09.898 | INFO     | __main__:<module>:199 - Fuzz torch.cuda.tunable.get_results done
+2025-07-30 06:24:09.898 | INFO     | __main__:<module>:200 - Coverage now: 93321
+2025-07-30 06:24:09.899 | INFO     | __main__:<module>:189 - Fuzz torch.fx.experimental.sym_node.sympy_is_channels_last_strides_generic start
+2025-07-30 06:24:09.899 | INFO     | __main__:<module>:191 - run torch fx.experimental.sym_node.sympy_is_channels_last_strides_generic 3
+2025-07-30 06:24:12.893 | INFO     | __main__:fuzzapi:229 - Coverage increased 261, now: 93582
+2025-07-30 06:24:20.516 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 93584
+2025-07-30 06:28:07.622 | INFO     | __main__:<module>:199 - Fuzz torch.fx.experimental.sym_node.sympy_is_channels_last_strides_generic done
+2025-07-30 06:28:07.623 | INFO     | __main__:<module>:200 - Coverage now: 93584
+2025-07-30 06:28:07.623 | INFO     | __main__:<module>:189 - Fuzz torch.ao.nn.intrinsic.qat.modules.conv_fused.freeze_bn_stats start
+2025-07-30 06:28:07.623 | INFO     | __main__:<module>:191 - run torch ao.nn.intrinsic.qat.modules.conv_fused.freeze_bn_stats 1
+2025-07-30 06:28:09.480 | INFO     | __main__:fuzzapi:229 - Coverage increased 7, now: 93591
+2025-07-30 06:31:33.577 | INFO     | __main__:<module>:199 - Fuzz torch.ao.nn.intrinsic.qat.modules.conv_fused.freeze_bn_stats done
+2025-07-30 06:31:33.577 | INFO     | __main__:<module>:200 - Coverage now: 93591
+2025-07-30 06:31:33.578 | INFO     | __main__:<module>:189 - Fuzz torch.miopen_rnn start
+2025-07-30 06:31:33.578 | INFO     | __main__:<module>:191 - run torch miopen_rnn 14
+2025-07-30 06:35:01.150 | INFO     | __main__:fuzzapi:229 - Coverage increased 4, now: 93595
+2025-07-30 06:35:06.180 | INFO     | __main__:<module>:199 - Fuzz torch.miopen_rnn done
+2025-07-30 06:35:06.180 | INFO     | __main__:<module>:200 - Coverage now: 93595
+2025-07-30 06:35:06.181 | INFO     | __main__:<module>:189 - Fuzz torch.frac start
+2025-07-30 06:35:06.181 | INFO     | __main__:<module>:191 - run torch frac 2
+2025-07-30 06:38:41.125 | INFO     | __main__:<module>:199 - Fuzz torch.frac done
+2025-07-30 06:38:41.126 | INFO     | __main__:<module>:200 - Coverage now: 93595
+2025-07-30 06:38:41.126 | INFO     | __main__:<module>:189 - Fuzz torch.clamp_min start
+2025-07-30 06:38:41.126 | INFO     | __main__:<module>:191 - run torch clamp_min 3
+2025-07-30 06:42:12.102 | INFO     | __main__:<module>:199 - Fuzz torch.clamp_min done
+2025-07-30 06:42:12.103 | INFO     | __main__:<module>:200 - Coverage now: 93595
+2025-07-30 06:42:12.104 | INFO     | __main__:<module>:189 - Fuzz torch.nn.functional._threshold start
+2025-07-30 06:42:12.104 | INFO     | __main__:<module>:191 - run torch nn.functional._threshold 4
+2025-07-30 06:42:14.042 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 93597
+2025-07-30 06:42:16.138 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 93598
+2025-07-30 06:45:27.098 | INFO     | __main__:<module>:199 - Fuzz torch.nn.functional._threshold done
+2025-07-30 06:45:27.099 | INFO     | __main__:<module>:200 - Coverage now: 93598
+2025-07-30 06:45:27.099 | INFO     | __main__:<module>:189 - Fuzz torch.utils.collect_env.run start
+2025-07-30 06:45:27.100 | INFO     | __main__:<module>:191 - run torch utils.collect_env.run 1
+2025-07-30 06:45:29.067 | INFO     | __main__:fuzzapi:229 - Coverage increased 3, now: 93601
+2025-07-30 06:49:03.156 | INFO     | __main__:fuzzapi:229 - Coverage increased 9, now: 93610
+2025-07-30 06:49:20.998 | INFO     | __main__:<module>:199 - Fuzz torch.utils.collect_env.run done
+2025-07-30 06:49:20.999 | INFO     | __main__:<module>:200 - Coverage now: 93610
+2025-07-30 06:49:20.999 | INFO     | __main__:<module>:189 - Fuzz torch.xpu.is_initialized start
+2025-07-30 06:49:20.999 | INFO     | __main__:<module>:191 - run torch xpu.is_initialized 0
+2025-07-30 06:49:22.862 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 93611
+2025-07-30 06:49:23.162 | INFO     | __main__:<module>:199 - Fuzz torch.xpu.is_initialized done
+2025-07-30 06:49:23.163 | INFO     | __main__:<module>:200 - Coverage now: 93611
+2025-07-30 06:49:23.163 | INFO     | __main__:<module>:189 - Fuzz torch.fx.node.map_aggregate start
+2025-07-30 06:49:23.163 | INFO     | __main__:<module>:191 - run torch fx.node.map_aggregate 2
+2025-07-30 06:49:25.946 | INFO     | __main__:fuzzapi:229 - Coverage increased 6, now: 93617
+2025-07-30 06:49:37.049 | INFO     | __main__:fuzzapi:229 - Coverage increased 3, now: 93620
+2025-07-30 06:52:03.297 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 93622
+2025-07-30 06:52:49.203 | INFO     | __main__:<module>:199 - Fuzz torch.fx.node.map_aggregate done
+2025-07-30 06:52:49.203 | INFO     | __main__:<module>:200 - Coverage now: 93622
+2025-07-30 06:52:49.203 | INFO     | __main__:<module>:189 - Fuzz torch.set_autocast_ipu_enabled start
+2025-07-30 06:52:49.204 | INFO     | __main__:<module>:191 - run torch set_autocast_ipu_enabled 0
+2025-07-30 06:52:51.580 | INFO     | __main__:<module>:199 - Fuzz torch.set_autocast_ipu_enabled done
+2025-07-30 06:52:51.581 | INFO     | __main__:<module>:200 - Coverage now: 93622
+2025-07-30 06:52:51.581 | INFO     | __main__:<module>:189 - Fuzz torch.feature_dropout_ start
+2025-07-30 06:52:51.582 | INFO     | __main__:<module>:191 - run torch feature_dropout_ 3
+2025-07-30 06:56:13.593 | INFO     | __main__:<module>:199 - Fuzz torch.feature_dropout_ done
+2025-07-30 06:56:13.594 | INFO     | __main__:<module>:200 - Coverage now: 93622
+2025-07-30 06:56:13.594 | INFO     | __main__:<module>:189 - Fuzz torch.mode start
+2025-07-30 06:56:13.595 | INFO     | __main__:<module>:191 - run torch mode 4
+2025-07-30 06:59:38.169 | INFO     | __main__:<module>:199 - Fuzz torch.mode done
+2025-07-30 06:59:38.170 | INFO     | __main__:<module>:200 - Coverage now: 93622
+2025-07-30 06:59:38.170 | INFO     | __main__:<module>:189 - Fuzz torch.ao.quantization.pt2e.export_utils._move_exported_model_to_train start
+2025-07-30 06:59:38.170 | INFO     | __main__:<module>:191 - run torch ao.quantization.pt2e.export_utils._move_exported_model_to_train 1
+2025-07-30 06:59:40.281 | INFO     | __main__:fuzzapi:229 - Coverage increased 2348, now: 95970
+2025-07-30 07:03:13.466 | INFO     | __main__:<module>:199 - Fuzz torch.ao.quantization.pt2e.export_utils._move_exported_model_to_train done
+2025-07-30 07:03:13.467 | INFO     | __main__:<module>:200 - Coverage now: 95970
+2025-07-30 07:03:13.467 | INFO     | __main__:<module>:189 - Fuzz torch.fx.experimental.proxy_tensor.maybe_handle_decomp start
+2025-07-30 07:03:13.467 | INFO     | __main__:<module>:191 - run torch fx.experimental.proxy_tensor.maybe_handle_decomp 4
+2025-07-30 07:03:15.256 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 95972
+2025-07-30 07:06:42.206 | INFO     | __main__:<module>:199 - Fuzz torch.fx.experimental.proxy_tensor.maybe_handle_decomp done
+2025-07-30 07:06:42.207 | INFO     | __main__:<module>:200 - Coverage now: 95972
+2025-07-30 07:06:42.207 | INFO     | __main__:<module>:189 - Fuzz torch.argmax start
+2025-07-30 07:06:42.207 | INFO     | __main__:<module>:191 - run torch argmax 4
+2025-07-30 07:10:37.527 | INFO     | __main__:<module>:199 - Fuzz torch.argmax done
+2025-07-30 07:10:37.528 | INFO     | __main__:<module>:200 - Coverage now: 95972
+2025-07-30 07:10:37.528 | INFO     | __main__:<module>:189 - Fuzz torch.utils.set_module start
+2025-07-30 07:10:37.528 | INFO     | __main__:<module>:191 - run torch utils.set_module 2
+2025-07-30 07:10:39.339 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 95973
+Segmentation fault (core dumped)
+2025-07-30 07:14:03.977 | INFO     | __main__:<module>:199 - Fuzz torch.utils.set_module done
+2025-07-30 07:14:03.978 | INFO     | __main__:<module>:200 - Coverage now: 95973
+2025-07-30 07:14:03.978 | INFO     | __main__:<module>:189 - Fuzz torch.ao.quantization.quantization_mappings.get_embedding_static_quant_module_mappings start
+2025-07-30 07:14:03.978 | INFO     | __main__:<module>:191 - run torch ao.quantization.quantization_mappings.get_embedding_static_quant_module_mappings 0
+2025-07-30 07:14:05.869 | INFO     | __main__:fuzzapi:229 - Coverage increased 4, now: 95977
+2025-07-30 07:14:06.121 | INFO     | __main__:<module>:199 - Fuzz torch.ao.quantization.quantization_mappings.get_embedding_static_quant_module_mappings done
+2025-07-30 07:14:06.122 | INFO     | __main__:<module>:200 - Coverage now: 95977
+2025-07-30 07:14:06.122 | INFO     | __main__:<module>:189 - Fuzz torch.utils.backend_registration.generate_methods_for_privateuse1_backend start
+2025-07-30 07:14:06.122 | INFO     | __main__:<module>:191 - run torch utils.backend_registration.generate_methods_for_privateuse1_backend 5
+2025-07-30 07:14:08.028 | INFO     | __main__:fuzzapi:229 - Coverage increased 22, now: 95999
+2025-07-30 07:14:10.136 | INFO     | __main__:fuzzapi:229 - Coverage increased 25, now: 96024
+2025-07-30 07:14:12.254 | INFO     | __main__:fuzzapi:229 - Coverage increased 3, now: 96027
+2025-07-30 07:16:55.653 | INFO     | __main__:fuzzapi:229 - Coverage increased 5, now: 96032
+2025-07-30 07:17:11.806 | INFO     | __main__:<module>:199 - Fuzz torch.utils.backend_registration.generate_methods_for_privateuse1_backend done
+2025-07-30 07:17:11.807 | INFO     | __main__:<module>:200 - Coverage now: 96032
+2025-07-30 07:17:11.807 | INFO     | __main__:<module>:189 - Fuzz torch.nanmedian start
+2025-07-30 07:17:11.807 | INFO     | __main__:<module>:191 - run torch nanmedian 4
+2025-07-30 07:18:27.381 | INFO     | __main__:fuzzapi:229 - Coverage increased 3, now: 96035
+2025-07-30 07:20:43.602 | INFO     | __main__:<module>:199 - Fuzz torch.nanmedian done
+2025-07-30 07:20:43.603 | INFO     | __main__:<module>:200 - Coverage now: 96035
+2025-07-30 07:20:43.603 | INFO     | __main__:<module>:189 - Fuzz torch.slice_inverse start
+2025-07-30 07:20:43.603 | INFO     | __main__:<module>:191 - run torch slice_inverse 6
+2025-07-30 07:23:39.674 | INFO     | __main__:<module>:199 - Fuzz torch.slice_inverse done
+2025-07-30 07:23:39.674 | INFO     | __main__:<module>:200 - Coverage now: 96035
+2025-07-30 07:23:39.675 | INFO     | __main__:<module>:189 - Fuzz torch.as_strided_ start
+2025-07-30 07:23:39.675 | INFO     | __main__:<module>:191 - run torch as_strided_ 4
+2025-07-30 07:26:53.563 | INFO     | __main__:<module>:199 - Fuzz torch.as_strided_ done
+2025-07-30 07:26:53.563 | INFO     | __main__:<module>:200 - Coverage now: 96035
+2025-07-30 07:26:53.564 | INFO     | __main__:<module>:189 - Fuzz torch.nn.utils.parametrize.cached start
+2025-07-30 07:26:53.564 | INFO     | __main__:<module>:191 - run torch nn.utils.parametrize.cached 0
+2025-07-30 07:26:55.672 | INFO     | __main__:<module>:199 - Fuzz torch.nn.utils.parametrize.cached done
+2025-07-30 07:26:55.672 | INFO     | __main__:<module>:200 - Coverage now: 96035
+2025-07-30 07:26:55.673 | INFO     | __main__:<module>:189 - Fuzz torch.utils.data.graph_settings.apply_random_seed start
+2025-07-30 07:26:55.673 | INFO     | __main__:<module>:191 - run torch utils.data.graph_settings.apply_random_seed 2
+2025-07-30 07:26:57.589 | INFO     | __main__:fuzzapi:229 - Coverage increased 5, now: 96040
+2025-07-30 07:30:07.087 | INFO     | __main__:<module>:199 - Fuzz torch.utils.data.graph_settings.apply_random_seed done
+2025-07-30 07:30:07.088 | INFO     | __main__:<module>:200 - Coverage now: 96040
+2025-07-30 07:30:07.088 | INFO     | __main__:<module>:189 - Fuzz torch.max_pool2d start
+2025-07-30 07:30:07.088 | INFO     | __main__:<module>:191 - run torch max_pool2d 4
+2025-07-30 07:33:36.833 | INFO     | __main__:<module>:199 - Fuzz torch.max_pool2d done
+2025-07-30 07:33:36.833 | INFO     | __main__:<module>:200 - Coverage now: 96040
+2025-07-30 07:33:36.834 | INFO     | __main__:<module>:189 - Fuzz torch.utils.collect_env.get_cudnn_version start
+2025-07-30 07:33:36.834 | INFO     | __main__:<module>:191 - run torch utils.collect_env.get_cudnn_version 1
+2025-07-30 07:33:38.689 | INFO     | __main__:fuzzapi:229 - Coverage increased 4, now: 96044
+2025-07-30 07:36:58.502 | INFO     | __main__:<module>:199 - Fuzz torch.utils.collect_env.get_cudnn_version done
+2025-07-30 07:36:58.502 | INFO     | __main__:<module>:200 - Coverage now: 96044
+2025-07-30 07:36:58.502 | INFO     | __main__:<module>:189 - Fuzz torch.ao.quantization.utils.validate_qmin_qmax start
+2025-07-30 07:36:58.503 | INFO     | __main__:<module>:191 - run torch ao.quantization.utils.validate_qmin_qmax 2
+2025-07-30 07:37:00.322 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 96045
+2025-07-30 07:37:02.290 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 96047
+2025-07-30 07:40:24.374 | INFO     | __main__:<module>:199 - Fuzz torch.ao.quantization.utils.validate_qmin_qmax done
+2025-07-30 07:40:24.374 | INFO     | __main__:<module>:200 - Coverage now: 96047
+2025-07-30 07:40:24.375 | INFO     | __main__:<module>:189 - Fuzz torch.cuda.profiler.init start
+2025-07-30 07:40:24.375 | INFO     | __main__:<module>:191 - run torch cuda.profiler.init 3
+2025-07-30 07:40:26.105 | INFO     | __main__:fuzzapi:229 - Coverage increased 8, now: 96055
+2025-07-30 07:43:52.836 | INFO     | __main__:<module>:199 - Fuzz torch.cuda.profiler.init done
+2025-07-30 07:43:52.836 | INFO     | __main__:<module>:200 - Coverage now: 96055
+2025-07-30 07:43:52.836 | INFO     | __main__:<module>:189 - Fuzz torch.nn.init.kaiming_uniform_ start
+2025-07-30 07:43:52.836 | INFO     | __main__:<module>:191 - run torch nn.init.kaiming_uniform_ 5
+2025-07-30 07:43:54.614 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 96057
+2025-07-30 07:46:55.478 | INFO     | __main__:<module>:199 - Fuzz torch.nn.init.kaiming_uniform_ done
+2025-07-30 07:46:55.479 | INFO     | __main__:<module>:200 - Coverage now: 96057
+2025-07-30 07:46:55.479 | INFO     | __main__:<module>:189 - Fuzz torch.backends.cudnn.set_flags start
+2025-07-30 07:46:55.479 | INFO     | __main__:<module>:191 - run torch backends.cudnn.set_flags 5
+2025-07-30 07:46:57.273 | INFO     | __main__:fuzzapi:229 - Coverage increased 8, now: 96065
+2025-07-30 07:49:27.730 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 96067
+2025-07-30 07:49:44.107 | INFO     | __main__:<module>:199 - Fuzz torch.backends.cudnn.set_flags done
+2025-07-30 07:49:44.107 | INFO     | __main__:<module>:200 - Coverage now: 96067
+2025-07-30 07:49:44.107 | INFO     | __main__:<module>:189 - Fuzz torch.as_tensor start
+2025-07-30 07:49:44.107 | INFO     | __main__:<module>:191 - run torch as_tensor 3
+2025-07-30 07:53:06.055 | INFO     | __main__:<module>:199 - Fuzz torch.as_tensor done
+2025-07-30 07:53:06.056 | INFO     | __main__:<module>:200 - Coverage now: 96067
+2025-07-30 07:53:06.056 | INFO     | __main__:<module>:189 - Fuzz torch.autograd.functional.jacobian start
+2025-07-30 07:53:06.057 | INFO     | __main__:<module>:191 - run torch autograd.functional.jacobian 6
+2025-07-30 07:53:08.050 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 96069
+2025-07-30 07:56:04.579 | INFO     | __main__:<module>:199 - Fuzz torch.autograd.functional.jacobian done
+2025-07-30 07:56:04.580 | INFO     | __main__:<module>:200 - Coverage now: 96069
+2025-07-30 07:56:04.580 | INFO     | __main__:<module>:189 - Fuzz torch.orgqr start
+2025-07-30 07:56:04.581 | INFO     | __main__:<module>:191 - run torch orgqr 3
+2025-07-30 07:59:23.845 | INFO     | __main__:<module>:199 - Fuzz torch.orgqr done
+2025-07-30 07:59:23.846 | INFO     | __main__:<module>:200 - Coverage now: 96069
+2025-07-30 07:59:23.846 | INFO     | __main__:<module>:189 - Fuzz torch.fx.experimental.proxy_tensor.thunkify start
+2025-07-30 07:59:23.847 | INFO     | __main__:<module>:191 - run torch fx.experimental.proxy_tensor.thunkify 2
+2025-07-30 07:59:25.574 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 96070
+2025-07-30 08:02:25.904 | INFO     | __main__:<module>:199 - Fuzz torch.fx.experimental.proxy_tensor.thunkify done
+2025-07-30 08:02:25.905 | INFO     | __main__:<module>:200 - Coverage now: 96070
+2025-07-30 08:02:25.905 | INFO     | __main__:<module>:189 - Fuzz torch.jit.export_opnames start
+2025-07-30 08:02:25.905 | INFO     | __main__:<module>:191 - run torch jit.export_opnames 1
+2025-07-30 08:02:28.792 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 96071
+2025-07-30 08:05:42.270 | INFO     | __main__:<module>:199 - Fuzz torch.jit.export_opnames done
+2025-07-30 08:05:42.270 | INFO     | __main__:<module>:200 - Coverage now: 96071
+2025-07-30 08:05:42.271 | INFO     | __main__:<module>:189 - Fuzz torch.bitwise_left_shift start
+2025-07-30 08:05:42.271 | INFO     | __main__:<module>:191 - run torch bitwise_left_shift 3
+2025-07-30 08:09:06.179 | INFO     | __main__:<module>:199 - Fuzz torch.bitwise_left_shift done
+2025-07-30 08:09:06.179 | INFO     | __main__:<module>:200 - Coverage now: 96071
+2025-07-30 08:09:06.180 | INFO     | __main__:<module>:189 - Fuzz torch.not_equal start
+2025-07-30 08:09:06.180 | INFO     | __main__:<module>:191 - run torch not_equal 3
+2025-07-30 08:12:26.048 | INFO     | __main__:<module>:199 - Fuzz torch.not_equal done
+2025-07-30 08:12:26.048 | INFO     | __main__:<module>:200 - Coverage now: 96071
+2025-07-30 08:12:26.049 | INFO     | __main__:<module>:189 - Fuzz torch.lcm start
+2025-07-30 08:12:26.049 | INFO     | __main__:<module>:191 - run torch lcm 3
+2025-07-30 08:16:03.133 | INFO     | __main__:<module>:199 - Fuzz torch.lcm done
+2025-07-30 08:16:03.134 | INFO     | __main__:<module>:200 - Coverage now: 96071
+2025-07-30 08:16:03.134 | INFO     | __main__:<module>:189 - Fuzz torch.cuda.memory.memory_summary start
+2025-07-30 08:16:03.135 | INFO     | __main__:<module>:191 - run torch cuda.memory.memory_summary 2
+2025-07-30 08:16:04.999 | INFO     | __main__:fuzzapi:229 - Coverage increased 66, now: 96137
+2025-07-30 08:16:10.830 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 96138
+2025-07-30 08:16:12.777 | INFO     | __main__:fuzzapi:229 - Coverage increased 1, now: 96139
+2025-07-30 08:16:17.009 | INFO     | __main__:fuzzapi:229 - Coverage increased 2, now: 96141
+2025-07-30 08:19:25.326 | INFO     | __main__:<module>:199 - Fuzz torch.cuda.memory.memory_summary done
+2025-07-30 08:19:25.327 | INFO     | __main__:<module>:200 - Coverage now: 96141
+2025-07-30 08:19:25.328 | INFO     | __main__:<module>:189 - Fuzz torch.serialization.validate_hpu_device start
+2025-07-30 08:19:25.328 | INFO     | __main__:<module>:191 - run torch serialization.validate_hpu_device 1
+2025-07-30 08:19:27.108 | INFO     | __main__:fuzzapi:229 - Coverage increased 4, now: 96145
+2025-07-30 08:22:44.035 | INFO     | __main__:<module>:199 - Fuzz torch.serialization.validate_hpu_device done
+2025-07-30 08:22:44.036 | INFO     | __main__:<module>:200 - Coverage now: 96145
+2025-07-30 08:22:44.036 | INFO     | __main__:<module>:189 - Fuzz torch.nn.modules.module.register_module_buffer_registration_hook start
+2025-07-30 08:22:44.036 | INFO     | __main__:<module>:191 - run torch nn.modules.module.register_module_buffer_registration_hook 1
+2025-07-30 08:22:45.821 | INFO     | __main__:fuzzapi:229 - Coverage increased 8, now: 96153
+2025-07-30 08:25:59.439 | INFO     | __main__:<module>:199 - Fuzz torch.nn.modules.module.register_module_buffer_registration_hook done
+2025-07-30 08:25:59.440 | INFO     | __main__:<module>:200 - Coverage now: 96153
+2025-07-30 08:25:59.440 | INFO     | __main__:<module>:205 - Dyfuzz done torch

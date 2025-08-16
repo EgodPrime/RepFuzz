@@ -1,0 +1,8 @@
+scikit-learn==1.6.0
+scipy==1.14.1
+dask[dataframe]==2024.12.1
+nltk==3.9.1
+pandas==2.2.3
+numpy==2.2.1
+torch==2.5.1+cpu
+--index-url=https://download.pytorch.org/whl/cpu --extra-index-url=https://pypi.org/simple

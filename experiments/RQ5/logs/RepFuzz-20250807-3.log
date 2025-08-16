@@ -1,0 +1,743 @@
+2025-08-07 02:37:50.977 | INFO     | __main__:skip_imports_coverage:132 - Initial coverage is 77985
+2025-08-07 02:37:51.023 | DEBUG    | __main__:fuzz_dataset:147 - library difflib has 1 api to be fuzzed
+2025-08-07 02:37:51.042 | INFO     | __main__:fuzz_dataset:169 - Fuzz difflib.unified_diff start
+2025-08-07 02:37:51.048 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for difflib
+2025-08-07 02:37:51.060 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz difflib.unified_diff
+2025-08-07 02:38:01.054 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:38:01.059 | INFO     | __main__:fuzz_dataset:222 - Fuzz difflib.unified_diff done
+2025-08-07 02:38:01.060 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 78060
+2025-08-07 02:38:01.063 | DEBUG    | __main__:fuzz_dataset:147 - library re has 1 api to be fuzzed
+2025-08-07 02:38:01.081 | INFO     | __main__:fuzz_dataset:169 - Fuzz re.purge start
+2025-08-07 02:38:01.087 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for re
+2025-08-07 02:38:01.094 | INFO     | __main__:fuzz_dataset:188 - Fuzzing re done
+2025-08-07 02:38:01.096 | INFO     | __main__:fuzz_dataset:222 - Fuzz re.purge done
+2025-08-07 02:38:01.096 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 78060
+2025-08-07 02:38:01.098 | DEBUG    | __main__:fuzz_dataset:147 - library locale has 1 api to be fuzzed
+2025-08-07 02:38:01.115 | INFO     | __main__:fuzz_dataset:169 - Fuzz locale.normalize start
+2025-08-07 02:38:01.120 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for locale
+2025-08-07 02:38:01.129 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz locale.normalize
+2025-08-07 02:38:01.153 | INFO     | __main__:fuzz_dataset:188 - Fuzzing locale done
+2025-08-07 02:38:01.155 | INFO     | __main__:fuzz_dataset:222 - Fuzz locale.normalize done
+2025-08-07 02:38:01.155 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 78060
+2025-08-07 02:38:01.156 | DEBUG    | __main__:fuzz_dataset:147 - library ast has 1 api to be fuzzed
+2025-08-07 02:38:01.175 | INFO     | __main__:fuzz_dataset:169 - Fuzz ast.get_source_segment start
+2025-08-07 02:38:01.181 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for ast
+2025-08-07 02:38:01.189 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz ast.parse
+2025-08-07 02:38:01.214 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz ast.get_source_segment
+2025-08-07 02:38:11.223 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:38:11.227 | INFO     | __main__:fuzz_dataset:222 - Fuzz ast.get_source_segment done
+2025-08-07 02:38:11.228 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 78060
+2025-08-07 02:38:11.230 | DEBUG    | __main__:fuzz_dataset:147 - library sklearn has 1 api to be fuzzed
+2025-08-07 02:38:11.251 | INFO     | __main__:fuzz_dataset:169 - Fuzz sklearn.feature_extraction.image.img_to_graph start
+2025-08-07 02:38:11.257 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for sklearn
+2025-08-07 02:38:12.428 | INFO     | __main__:fuzz_dataset:188 - Fuzzing sklearn done
+2025-08-07 02:38:12.452 | INFO     | __main__:fuzz_dataset:222 - Fuzz sklearn.feature_extraction.image.img_to_graph done
+2025-08-07 02:38:12.452 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 87396
+2025-08-07 02:38:12.455 | DEBUG    | __main__:fuzz_dataset:147 - library inspect has 1 api to be fuzzed
+2025-08-07 02:38:12.474 | INFO     | __main__:fuzz_dataset:169 - Fuzz inspect.currentframe start
+2025-08-07 02:38:12.480 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for inspect
+2025-08-07 02:38:12.489 | INFO     | __main__:fuzz_dataset:188 - Fuzzing inspect done
+2025-08-07 02:38:12.491 | INFO     | __main__:fuzz_dataset:222 - Fuzz inspect.currentframe done
+2025-08-07 02:38:12.491 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 87396
+2025-08-07 02:38:12.494 | DEBUG    | __main__:fuzz_dataset:147 - library scipy has 2 api to be fuzzed
+2025-08-07 02:38:12.513 | INFO     | __main__:fuzz_dataset:169 - Fuzz scipy.spatial.distance.correlation start
+2025-08-07 02:38:12.519 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for scipy
+2025-08-07 02:38:13.173 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 25, now: 102070 (F)
+2025-08-07 02:38:13.173 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz scipy.spatial.distance.correlation
+2025-08-07 02:38:23.203 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:38:23.207 | INFO     | __main__:fuzz_dataset:222 - Fuzz scipy.spatial.distance.correlation done
+2025-08-07 02:38:23.208 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102070
+2025-08-07 02:38:23.228 | INFO     | __main__:fuzz_dataset:169 - Fuzz scipy.spatial.distance.braycurtis start
+2025-08-07 02:38:23.234 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for scipy
+2025-08-07 02:38:23.897 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 8, now: 102078 (F)
+2025-08-07 02:38:23.898 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz scipy.spatial.distance.braycurtis
+2025-08-07 02:38:23.922 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:130 - Coverage increased 1, now: 102079
+2025-08-07 02:38:23.962 | INFO     | __main__:fuzz_dataset:188 - Fuzzing scipy done
+2025-08-07 02:38:23.977 | INFO     | __main__:fuzz_dataset:222 - Fuzz scipy.spatial.distance.braycurtis done
+2025-08-07 02:38:23.977 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102079
+2025-08-07 02:38:23.980 | DEBUG    | __main__:fuzz_dataset:147 - library dask has 5 api to be fuzzed
+2025-08-07 02:38:24.000 | INFO     | __main__:fuzz_dataset:169 - Fuzz dask.config.collect start
+2025-08-07 02:38:24.005 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for dask
+2025-08-07 02:38:24.118 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz dask.config.collect_yaml
+2025-08-07 02:38:24.168 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz dask.config.collect_env
+2025-08-07 02:38:24.202 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz dask.config.update
+2025-08-07 02:38:24.223 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz dask.config.merge
+2025-08-07 02:38:24.252 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz dask.config.collect
+2025-08-07 02:38:34.262 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:38:34.265 | INFO     | __main__:fuzz_dataset:222 - Fuzz dask.config.collect done
+2025-08-07 02:38:34.266 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102079
+2025-08-07 02:38:34.286 | INFO     | __main__:fuzz_dataset:169 - Fuzz dask.sizeof.sizeof_memoryview start
+2025-08-07 02:38:34.292 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for dask
+2025-08-07 02:38:34.405 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 1, now: 102080 (F)
+2025-08-07 02:38:34.406 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz dask.sizeof.sizeof_memoryview
+2025-08-07 02:38:34.429 | INFO     | __main__:fuzz_dataset:188 - Fuzzing dask done
+2025-08-07 02:38:34.432 | INFO     | __main__:fuzz_dataset:222 - Fuzz dask.sizeof.sizeof_memoryview done
+2025-08-07 02:38:34.432 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102080
+2025-08-07 02:38:34.452 | INFO     | __main__:fuzz_dataset:169 - Fuzz dask.utils.random_state_data start
+2025-08-07 02:38:34.458 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for dask
+2025-08-07 02:38:34.648 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 8, now: 102088 (F)
+2025-08-07 02:38:34.649 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz dask.utils.random_state_data
+2025-08-07 02:38:44.716 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:38:44.740 | INFO     | __main__:fuzz_dataset:222 - Fuzz dask.utils.random_state_data done
+2025-08-07 02:38:44.740 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102088
+2025-08-07 02:38:44.761 | INFO     | __main__:fuzz_dataset:169 - Fuzz dask.config.serialize start
+2025-08-07 02:38:44.768 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for dask
+2025-08-07 02:38:44.879 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 1, now: 102089 (F)
+2025-08-07 02:38:44.880 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz dask.config.serialize
+2025-08-07 02:38:44.900 | INFO     | __main__:fuzz_dataset:188 - Fuzzing dask done
+2025-08-07 02:38:44.903 | INFO     | __main__:fuzz_dataset:222 - Fuzz dask.config.serialize done
+2025-08-07 02:38:44.903 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102089
+2025-08-07 02:38:44.918 | INFO     | __main__:fuzz_dataset:169 - Fuzz dask.hashing.hash_buffer start
+2025-08-07 02:38:44.924 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for dask
+2025-08-07 02:38:45.034 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 2, now: 102091 (F)
+2025-08-07 02:38:45.035 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz dask.hashing.hash_buffer
+2025-08-07 02:38:54.930 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:38:54.936 | INFO     | __main__:fuzz_dataset:222 - Fuzz dask.hashing.hash_buffer done
+2025-08-07 02:38:54.936 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102091
+2025-08-07 02:38:54.939 | DEBUG    | __main__:fuzz_dataset:147 - library nltk has 12 api to be fuzzed
+2025-08-07 02:38:54.956 | INFO     | __main__:fuzz_dataset:169 - Fuzz nltk.chunk.util.conlltags2tree start
+2025-08-07 02:38:54.962 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for nltk
+2025-08-07 02:38:56.169 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 20, now: 102111 (F)
+2025-08-07 02:38:56.182 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz nltk.chunk.util.conlltags2tree
+2025-08-07 02:39:06.195 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:39:06.199 | INFO     | __main__:fuzz_dataset:222 - Fuzz nltk.chunk.util.conlltags2tree done
+2025-08-07 02:39:06.199 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102111
+2025-08-07 02:39:06.220 | INFO     | __main__:fuzz_dataset:169 - Fuzz nltk.metrics.distance.jaro_similarity start
+2025-08-07 02:39:06.226 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for nltk
+2025-08-07 02:39:07.427 | INFO     | __main__:fuzz_dataset:188 - Fuzzing nltk done
+2025-08-07 02:39:07.447 | INFO     | __main__:fuzz_dataset:222 - Fuzz nltk.metrics.distance.jaro_similarity done
+2025-08-07 02:39:07.448 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102135
+2025-08-07 02:39:07.467 | INFO     | __main__:fuzz_dataset:169 - Fuzz nltk.classify.util.wsd_demo start
+2025-08-07 02:39:07.473 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for nltk
+2025-08-07 02:39:08.746 | INFO     | __main__:fuzz_dataset:188 - Fuzzing nltk done
+2025-08-07 02:39:08.768 | INFO     | __main__:fuzz_dataset:222 - Fuzz nltk.classify.util.wsd_demo done
+2025-08-07 02:39:08.769 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102135
+2025-08-07 02:39:08.791 | INFO     | __main__:fuzz_dataset:169 - Fuzz nltk.lm.preprocessing.padded_everygram_pipeline start
+2025-08-07 02:39:08.798 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for nltk
+2025-08-07 02:39:10.061 | INFO     | __main__:fuzz_dataset:188 - Fuzzing nltk done
+2025-08-07 02:39:10.083 | INFO     | __main__:fuzz_dataset:222 - Fuzz nltk.lm.preprocessing.padded_everygram_pipeline done
+2025-08-07 02:39:10.083 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102135
+2025-08-07 02:39:10.105 | INFO     | __main__:fuzz_dataset:169 - Fuzz nltk.data.normalize_resource_name start
+2025-08-07 02:39:10.112 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for nltk
+2025-08-07 02:39:11.374 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 8, now: 102143 (F)
+2025-08-07 02:39:11.375 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz nltk.data.normalize_resource_name
+2025-08-07 02:39:20.119 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:39:20.124 | INFO     | __main__:fuzz_dataset:222 - Fuzz nltk.data.normalize_resource_name done
+2025-08-07 02:39:20.124 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102143
+2025-08-07 02:39:20.144 | INFO     | __main__:fuzz_dataset:169 - Fuzz nltk.chunk.ne_chunker start
+2025-08-07 02:39:20.150 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for nltk
+2025-08-07 02:39:21.392 | INFO     | __main__:fuzz_dataset:188 - Fuzzing nltk done
+2025-08-07 02:39:21.413 | INFO     | __main__:fuzz_dataset:222 - Fuzz nltk.chunk.ne_chunker done
+2025-08-07 02:39:21.414 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102143
+2025-08-07 02:39:21.433 | INFO     | __main__:fuzz_dataset:169 - Fuzz nltk.internals.find_binary_iter start
+2025-08-07 02:39:21.440 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for nltk
+2025-08-07 02:39:22.683 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz nltk.internals.find_binary_iter
+2025-08-07 02:39:31.443 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:39:31.449 | INFO     | __main__:fuzz_dataset:222 - Fuzz nltk.internals.find_binary_iter done
+2025-08-07 02:39:31.449 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102143
+2025-08-07 02:39:31.469 | INFO     | __main__:fuzz_dataset:169 - Fuzz nltk.tokenize.texttiling.smooth start
+2025-08-07 02:39:31.476 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for nltk
+2025-08-07 02:39:32.743 | INFO     | __main__:fuzz_dataset:188 - Fuzzing nltk done
+2025-08-07 02:39:32.765 | INFO     | __main__:fuzz_dataset:222 - Fuzz nltk.tokenize.texttiling.smooth done
+2025-08-07 02:39:32.766 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102143
+2025-08-07 02:39:32.786 | INFO     | __main__:fuzz_dataset:169 - Fuzz nltk.demo start
+2025-08-07 02:39:32.793 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for nltk
+2025-08-07 02:39:34.061 | INFO     | __main__:fuzz_dataset:188 - Fuzzing nltk done
+2025-08-07 02:39:34.082 | INFO     | __main__:fuzz_dataset:222 - Fuzz nltk.demo done
+2025-08-07 02:39:34.083 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102143
+2025-08-07 02:39:34.104 | INFO     | __main__:fuzz_dataset:169 - Fuzz nltk.parse.nonprojectivedependencyparser.demo start
+2025-08-07 02:39:34.111 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for nltk
+2025-08-07 02:39:35.310 | INFO     | __main__:fuzz_dataset:188 - Fuzzing nltk done
+2025-08-07 02:39:35.331 | INFO     | __main__:fuzz_dataset:222 - Fuzz nltk.parse.nonprojectivedependencyparser.demo done
+2025-08-07 02:39:35.331 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102143
+2025-08-07 02:39:35.351 | INFO     | __main__:fuzz_dataset:169 - Fuzz nltk.classify.util.accuracy start
+2025-08-07 02:39:35.357 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for nltk
+2025-08-07 02:39:36.595 | INFO     | __main__:fuzz_dataset:188 - Fuzzing nltk done
+2025-08-07 02:39:36.612 | INFO     | __main__:fuzz_dataset:222 - Fuzz nltk.classify.util.accuracy done
+2025-08-07 02:39:36.612 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102145
+2025-08-07 02:39:36.634 | INFO     | __main__:fuzz_dataset:169 - Fuzz nltk.inference.resolution.clausify start
+2025-08-07 02:39:36.641 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for nltk
+2025-08-07 02:39:37.886 | INFO     | __main__:fuzz_dataset:188 - Fuzzing nltk done
+2025-08-07 02:39:37.908 | INFO     | __main__:fuzz_dataset:222 - Fuzz nltk.inference.resolution.clausify done
+2025-08-07 02:39:37.909 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 102145
+2025-08-07 02:39:37.912 | DEBUG    | __main__:fuzz_dataset:147 - library pandas has 15 api to be fuzzed
+2025-08-07 02:39:37.931 | INFO     | __main__:fuzz_dataset:169 - Fuzz pandas.core.arrays.categorical.contains start
+2025-08-07 02:39:37.938 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for pandas
+2025-08-07 02:39:38.719 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 2, now: 125678 (F)
+2025-08-07 02:39:38.720 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz pandas.core.common.convert_to_list_like
+2025-08-07 02:39:38.740 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 2, now: 125684 (F)
+2025-08-07 02:39:38.741 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz pandas.core.construction.extract_array
+2025-08-07 02:39:48.752 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:39:48.756 | INFO     | __main__:fuzz_dataset:222 - Fuzz pandas.core.arrays.categorical.contains done
+2025-08-07 02:39:48.756 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 125684
+2025-08-07 02:39:48.777 | INFO     | __main__:fuzz_dataset:169 - Fuzz pandas.core.computation.expressions.where start
+2025-08-07 02:39:48.783 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for pandas
+2025-08-07 02:39:49.594 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 3, now: 125687 (F)
+2025-08-07 02:39:49.595 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz pandas.core.computation.expressions.where
+2025-08-07 02:39:59.614 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:39:59.619 | INFO     | __main__:fuzz_dataset:222 - Fuzz pandas.core.computation.expressions.where done
+2025-08-07 02:39:59.619 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 125687
+2025-08-07 02:39:59.639 | INFO     | __main__:fuzz_dataset:169 - Fuzz pandas.io.sql.execute start
+2025-08-07 02:39:59.646 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for pandas
+2025-08-07 02:40:00.470 | INFO     | __main__:fuzz_dataset:188 - Fuzzing pandas done
+2025-08-07 02:40:00.479 | INFO     | __main__:fuzz_dataset:222 - Fuzz pandas.io.sql.execute done
+2025-08-07 02:40:00.479 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 125687
+2025-08-07 02:40:00.501 | INFO     | __main__:fuzz_dataset:169 - Fuzz pandas.core.groupby.grouper.get_grouper start
+2025-08-07 02:40:00.507 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for pandas
+2025-08-07 02:40:01.294 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 3, now: 125711 (F)
+2025-08-07 02:40:01.295 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz pandas.core.indexes.base.maybe_extract_name
+2025-08-07 02:40:11.308 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:40:11.309 | INFO     | __main__:fuzz_dataset:222 - Fuzz pandas.core.groupby.grouper.get_grouper done
+2025-08-07 02:40:11.310 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 125711
+2025-08-07 02:40:11.329 | INFO     | __main__:fuzz_dataset:169 - Fuzz pandas.io.parsers.readers.read_table start
+2025-08-07 02:40:11.335 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for pandas
+2025-08-07 02:40:12.145 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 2, now: 125760 (F)
+2025-08-07 02:40:12.146 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz pandas.io.parsers.readers.validate_integer
+2025-08-07 02:40:21.341 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:40:21.347 | INFO     | __main__:fuzz_dataset:222 - Fuzz pandas.io.parsers.readers.read_table done
+2025-08-07 02:40:21.347 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 125760
+2025-08-07 02:40:21.368 | INFO     | __main__:fuzz_dataset:169 - Fuzz pandas.compat.is_platform_mac start
+2025-08-07 02:40:21.375 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for pandas
+2025-08-07 02:40:22.193 | INFO     | __main__:fuzz_dataset:188 - Fuzzing pandas done
+2025-08-07 02:40:22.202 | INFO     | __main__:fuzz_dataset:222 - Fuzz pandas.compat.is_platform_mac done
+2025-08-07 02:40:22.203 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 125760
+2025-08-07 02:40:22.223 | INFO     | __main__:fuzz_dataset:169 - Fuzz pandas.io.formats.format.get_level_lengths start
+2025-08-07 02:40:22.228 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for pandas
+2025-08-07 02:40:23.026 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 14, now: 125774 (F)
+2025-08-07 02:40:23.027 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz pandas.io.formats.format.get_level_lengths
+2025-08-07 02:40:32.235 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:40:32.238 | INFO     | __main__:fuzz_dataset:222 - Fuzz pandas.io.formats.format.get_level_lengths done
+2025-08-07 02:40:32.238 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 125774
+2025-08-07 02:40:32.257 | INFO     | __main__:fuzz_dataset:169 - Fuzz pandas.io.common.is_fsspec_url start
+2025-08-07 02:40:32.264 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for pandas
+2025-08-07 02:40:33.068 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 4, now: 125778 (F)
+2025-08-07 02:40:33.069 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz pandas.io.common.is_fsspec_url
+2025-08-07 02:40:33.089 | INFO     | __main__:fuzz_dataset:188 - Fuzzing pandas done
+2025-08-07 02:40:33.100 | INFO     | __main__:fuzz_dataset:222 - Fuzz pandas.io.common.is_fsspec_url done
+2025-08-07 02:40:33.100 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 125778
+2025-08-07 02:40:33.122 | INFO     | __main__:fuzz_dataset:169 - Fuzz pandas.core.nanops.nanmedian start
+2025-08-07 02:40:33.129 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for pandas
+2025-08-07 02:40:33.901 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 62, now: 125840 (F)
+2025-08-07 02:40:33.902 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz pandas.core.nanops.nanmedian
+2025-08-07 02:40:43.933 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:40:43.937 | INFO     | __main__:fuzz_dataset:222 - Fuzz pandas.core.nanops.nanmedian done
+2025-08-07 02:40:43.937 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 125840
+2025-08-07 02:40:43.958 | INFO     | __main__:fuzz_dataset:169 - Fuzz pandas.core.nanops.reduction start
+2025-08-07 02:40:43.964 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for pandas
+2025-08-07 02:40:44.765 | INFO     | __main__:fuzz_dataset:188 - Fuzzing pandas done
+2025-08-07 02:40:44.774 | INFO     | __main__:fuzz_dataset:222 - Fuzz pandas.core.nanops.reduction done
+2025-08-07 02:40:44.775 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 125840
+2025-08-07 02:40:44.793 | INFO     | __main__:fuzz_dataset:169 - Fuzz pandas.core.sorting.lexsort_indexer start
+2025-08-07 02:40:44.799 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for pandas
+2025-08-07 02:40:45.576 | INFO     | __main__:fuzz_dataset:188 - Fuzzing pandas done
+2025-08-07 02:40:45.586 | INFO     | __main__:fuzz_dataset:222 - Fuzz pandas.core.sorting.lexsort_indexer done
+2025-08-07 02:40:45.587 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 125840
+2025-08-07 02:40:45.610 | INFO     | __main__:fuzz_dataset:169 - Fuzz pandas.core.reshape.encoding.get_dummies start
+2025-08-07 02:40:45.616 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for pandas
+2025-08-07 02:40:46.412 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz pandas.core.indexes.base.maybe_extract_name
+2025-08-07 02:40:56.423 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:40:56.427 | INFO     | __main__:fuzz_dataset:222 - Fuzz pandas.core.reshape.encoding.get_dummies done
+2025-08-07 02:40:56.428 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 125853
+2025-08-07 02:40:56.449 | INFO     | __main__:fuzz_dataset:169 - Fuzz pandas.core.nanops.get_corr_func start
+2025-08-07 02:40:56.456 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for pandas
+2025-08-07 02:40:57.669 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 4, now: 125857 (F)
+2025-08-07 02:40:57.670 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz pandas.core.nanops.get_corr_func
+2025-08-07 02:40:57.691 | INFO     | __main__:fuzz_dataset:188 - Fuzzing pandas done
+2025-08-07 02:40:57.709 | INFO     | __main__:fuzz_dataset:222 - Fuzz pandas.core.nanops.get_corr_func done
+2025-08-07 02:40:57.710 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 125858
+2025-08-07 02:40:57.725 | INFO     | __main__:fuzz_dataset:169 - Fuzz pandas.core.sample.preprocess_weights start
+2025-08-07 02:40:57.731 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for pandas
+2025-08-07 02:40:58.548 | INFO     | __main__:fuzz_dataset:188 - Fuzzing pandas done
+2025-08-07 02:40:58.558 | INFO     | __main__:fuzz_dataset:222 - Fuzz pandas.core.sample.preprocess_weights done
+2025-08-07 02:40:58.558 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 125858
+2025-08-07 02:40:58.578 | INFO     | __main__:fuzz_dataset:169 - Fuzz pandas.core.dtypes.cast.find_common_type start
+2025-08-07 02:40:58.584 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for pandas
+2025-08-07 02:40:59.377 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 4, now: 125868 (F)
+2025-08-07 02:40:59.378 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz pandas.core.dtypes.cast.np_find_common_type
+2025-08-07 02:41:09.391 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:41:09.394 | INFO     | __main__:fuzz_dataset:222 - Fuzz pandas.core.dtypes.cast.find_common_type done
+2025-08-07 02:41:09.394 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 125868
+2025-08-07 02:41:09.396 | DEBUG    | __main__:fuzz_dataset:147 - library numpy has 17 api to be fuzzed
+2025-08-07 02:41:09.416 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.f2py.capi_maps.cb_sign2map start
+2025-08-07 02:41:09.423 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:41:09.657 | INFO     | __main__:fuzz_dataset:188 - Fuzzing numpy done
+2025-08-07 02:41:09.662 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.f2py.capi_maps.cb_sign2map done
+2025-08-07 02:41:09.662 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 133704
+2025-08-07 02:41:09.681 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.set_printoptions start
+2025-08-07 02:41:09.688 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:41:09.924 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 27, now: 133731 (F)
+2025-08-07 02:41:09.925 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.set_printoptions
+2025-08-07 02:41:19.695 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:41:19.700 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.set_printoptions done
+2025-08-07 02:41:19.701 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 133731
+2025-08-07 02:41:19.721 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.lib.format.read_array_header_2_0 start
+2025-08-07 02:41:19.728 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:41:19.965 | INFO     | __main__:fuzz_dataset:188 - Fuzzing numpy done
+2025-08-07 02:41:19.969 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.lib.format.read_array_header_2_0 done
+2025-08-07 02:41:19.969 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 133731
+2025-08-07 02:41:19.988 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.lib.format.dtype_to_descr start
+2025-08-07 02:41:19.995 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:41:20.229 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 4, now: 133736 (F)
+2025-08-07 02:41:20.230 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.lib.format.drop_metadata
+2025-08-07 02:41:20.232 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.issubdtype
+2025-08-07 02:41:30.245 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:41:30.249 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.lib.format.dtype_to_descr done
+2025-08-07 02:41:30.250 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 133767
+2025-08-07 02:41:30.271 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.get_printoptions start
+2025-08-07 02:41:30.278 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:41:30.514 | INFO     | __main__:fuzz_dataset:188 - Fuzzing numpy done
+2025-08-07 02:41:30.519 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.get_printoptions done
+2025-08-07 02:41:30.519 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 133767
+2025-08-07 02:41:30.535 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.asmatrix start
+2025-08-07 02:41:30.540 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:41:30.771 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.array
+2025-08-07 02:41:30.802 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 16, now: 133783 (F)
+2025-08-07 02:41:30.803 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.asmatrix
+2025-08-07 02:41:30.805 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.issubdtype
+2025-08-07 02:41:40.812 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:41:40.816 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.asmatrix done
+2025-08-07 02:41:40.816 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 133939
+2025-08-07 02:41:40.837 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.polynomial.chebyshev.chebgrid2d start
+2025-08-07 02:41:40.844 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:41:41.080 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.array
+2025-08-07 02:41:41.102 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.asarray
+2025-08-07 02:41:41.119 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 8, now: 133949 (F)
+2025-08-07 02:41:41.120 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.polynomial.chebyshev.chebval
+2025-08-07 02:41:41.122 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.issubdtype
+2025-08-07 02:41:51.134 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:41:51.138 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.polynomial.chebyshev.chebgrid2d done
+2025-08-07 02:41:51.139 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 133949
+2025-08-07 02:41:51.163 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.f2py.crackfortran.sortvarnames start
+2025-08-07 02:41:51.170 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:41:51.408 | INFO     | __main__:fuzz_dataset:188 - Fuzzing numpy done
+2025-08-07 02:41:51.415 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.f2py.crackfortran.sortvarnames done
+2025-08-07 02:41:51.416 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 133949
+2025-08-07 02:41:51.433 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.f2py.func2subr.assubr start
+2025-08-07 02:41:51.440 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:41:51.678 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 1, now: 133952 (F)
+2025-08-07 02:41:51.679 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.f2py.auxfuncs.isintent_c
+2025-08-07 02:41:51.700 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 1, now: 133954 (F)
+2025-08-07 02:41:51.701 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.f2py.auxfuncs.isfunction
+2025-08-07 02:41:51.720 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 1, now: 133958 (F)
+2025-08-07 02:41:51.721 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.f2py.auxfuncs.issubroutine
+2025-08-07 02:41:51.740 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 10, now: 133959 (F)
+2025-08-07 02:41:51.742 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.f2py.func2subr.assubr
+2025-08-07 02:41:51.803 | INFO     | __main__:fuzz_dataset:188 - Fuzzing numpy done
+2025-08-07 02:41:51.807 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.f2py.func2subr.assubr done
+2025-08-07 02:41:51.808 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 133959
+2025-08-07 02:41:51.830 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.ma.core.power start
+2025-08-07 02:41:51.836 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:41:52.074 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.ma.core.getmask
+2025-08-07 02:41:52.094 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 2, now: 133968 (F)
+2025-08-07 02:41:52.095 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.ma.core.make_mask
+2025-08-07 02:42:02.111 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:42:02.113 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.ma.core.power done
+2025-08-07 02:42:02.113 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 133974
+2025-08-07 02:42:02.131 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.polynomial.hermite.hermsub start
+2025-08-07 02:42:02.137 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:42:02.375 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.array
+2025-08-07 02:42:02.431 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 2, now: 133984 (F)
+2025-08-07 02:42:02.433 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.polynomial.polyutils.trimseq
+2025-08-07 02:42:02.435 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.issubdtype
+2025-08-07 02:42:12.434 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:42:12.438 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.polynomial.hermite.hermsub done
+2025-08-07 02:42:12.438 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 133984
+2025-08-07 02:42:12.458 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.lib.format.descr_to_dtype start
+2025-08-07 02:42:12.465 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:42:12.702 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 1, now: 133993 (F)
+2025-08-07 02:42:12.703 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.lib.format.descr_to_dtype
+2025-08-07 02:42:12.723 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 10, now: 134002 (F)
+2025-08-07 02:42:12.723 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 18, now: 134002 (F)
+2025-08-07 02:42:12.724 | INFO     | __main__:fuzz_dataset:188 - Fuzzing numpy done
+2025-08-07 02:42:12.730 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.lib.format.descr_to_dtype done
+2025-08-07 02:42:12.731 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134002
+2025-08-07 02:42:12.750 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.strings.title start
+2025-08-07 02:42:12.756 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:42:12.995 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.array
+2025-08-07 02:42:22.763 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:42:22.769 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.strings.title done
+2025-08-07 02:42:22.770 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134002
+2025-08-07 02:42:22.790 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.rec.fromrecords start
+2025-08-07 02:42:22.796 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:42:23.035 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 65, now: 134067 (F)
+2025-08-07 02:42:23.037 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.rec.fromrecords
+2025-08-07 02:42:32.803 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:42:32.808 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.rec.fromrecords done
+2025-08-07 02:42:32.808 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134067
+2025-08-07 02:42:32.829 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.polynomial.laguerre.lagmulx start
+2025-08-07 02:42:32.835 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:42:33.075 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.array
+2025-08-07 02:42:33.134 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.polynomial.polyutils.trimseq
+2025-08-07 02:42:33.136 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.issubdtype
+2025-08-07 02:42:43.153 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:42:43.158 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.polynomial.laguerre.lagmulx done
+2025-08-07 02:42:43.159 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134068
+2025-08-07 02:42:43.179 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.f2py.auxfuncs.getuseblocks start
+2025-08-07 02:42:43.186 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:42:43.423 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 6, now: 134074 (F)
+2025-08-07 02:42:43.424 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.f2py.auxfuncs.getuseblocks
+2025-08-07 02:42:43.446 | INFO     | __main__:fuzz_dataset:188 - Fuzzing numpy done
+2025-08-07 02:42:43.450 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.f2py.auxfuncs.getuseblocks done
+2025-08-07 02:42:43.451 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134074
+2025-08-07 02:42:43.466 | INFO     | __main__:fuzz_dataset:169 - Fuzz numpy.seterr start
+2025-08-07 02:42:43.472 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for numpy
+2025-08-07 02:42:43.708 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 7, now: 134081 (F)
+2025-08-07 02:42:43.709 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz numpy.seterr
+2025-08-07 02:42:53.722 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:42:53.727 | INFO     | __main__:fuzz_dataset:222 - Fuzz numpy.seterr done
+2025-08-07 02:42:53.727 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134081
+2025-08-07 02:42:53.730 | DEBUG    | __main__:fuzz_dataset:147 - library torch has 43 api to be fuzzed
+2025-08-07 02:42:53.748 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.autograd.gradcheck.gradgradcheck start
+2025-08-07 02:42:53.754 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:42:55.632 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:42:55.649 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.autograd.gradcheck.gradgradcheck done
+2025-08-07 02:42:55.650 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134082
+2025-08-07 02:42:55.670 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.nn.modules.module.register_module_forward_hook start
+2025-08-07 02:42:55.677 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:42:57.517 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:42:57.540 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.nn.modules.module.register_module_forward_hook done
+2025-08-07 02:42:57.541 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134082
+2025-08-07 02:42:57.564 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.cuda.tunable.get_results start
+2025-08-07 02:42:57.571 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:42:59.365 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:42:59.377 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.cuda.tunable.get_results done
+2025-08-07 02:42:59.377 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134082
+2025-08-07 02:42:59.399 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.fx.experimental.sym_node.sympy_is_channels_last_strides_generic start
+2025-08-07 02:42:59.405 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:43:01.659 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 308, now: 134390 (F)
+2025-08-07 02:43:01.661 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.fx.experimental.sym_node.sympy_is_channels_last_strides_generic
+2025-08-07 02:43:01.663 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:130 - Coverage increased 1, now: 134391
+2025-08-07 02:43:01.737 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:43:01.761 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.fx.experimental.sym_node.sympy_is_channels_last_strides_generic done
+2025-08-07 02:43:01.762 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134391
+2025-08-07 02:43:01.781 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.ao.nn.intrinsic.qat.modules.conv_fused.freeze_bn_stats start
+2025-08-07 02:43:01.788 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:43:03.641 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:43:03.664 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.ao.nn.intrinsic.qat.modules.conv_fused.freeze_bn_stats done
+2025-08-07 02:43:03.665 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134391
+2025-08-07 02:43:03.691 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.miopen_rnn start
+2025-08-07 02:43:03.698 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:43:05.491 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:43:05.504 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.miopen_rnn done
+2025-08-07 02:43:05.505 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134391
+2025-08-07 02:43:05.528 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.frac start
+2025-08-07 02:43:05.534 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:43:07.362 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.tensor
+2025-08-07 02:43:07.415 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.frac
+2025-08-07 02:43:07.417 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch._jit_internal.is_scripting has no arguments, execute only once.
+2025-08-07 02:43:07.418 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.is_grad_enabled has no arguments, execute only once.
+2025-08-07 02:43:07.425 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 3, now: 134503 (F)
+2025-08-07 02:43:07.426 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.autograd.forward_ad.unpack_dual
+2025-08-07 02:43:07.428 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.get_default_dtype has no arguments, execute only once.
+2025-08-07 02:43:07.430 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.isfinite
+2025-08-07 02:43:07.433 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.masked_select
+2025-08-07 02:43:07.438 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.ceil
+2025-08-07 02:43:12.126 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:43:12.149 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.frac done
+2025-08-07 02:43:12.150 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134647
+2025-08-07 02:43:12.168 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.clamp_min start
+2025-08-07 02:43:12.175 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:43:14.003 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.rand
+2025-08-07 02:43:24.190 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:43:24.486 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.clamp_min done
+2025-08-07 02:43:24.487 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134647
+2025-08-07 02:43:24.506 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.nn.functional._threshold start
+2025-08-07 02:43:24.512 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:43:26.345 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.tensor
+2025-08-07 02:43:26.398 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:43:26.412 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.nn.functional._threshold done
+2025-08-07 02:43:26.412 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134650
+2025-08-07 02:43:26.434 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.utils.collect_env.run start
+2025-08-07 02:43:26.440 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:43:29.263 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 2, now: 134658 (F)
+2025-08-07 02:43:29.265 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.utils.collect_env.get_platform has no arguments, execute only once.
+2025-08-07 02:43:39.279 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:43:39.283 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.utils.collect_env.run done
+2025-08-07 02:43:39.284 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134660
+2025-08-07 02:43:39.306 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.xpu.is_initialized start
+2025-08-07 02:43:39.312 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:43:41.085 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:43:41.097 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.xpu.is_initialized done
+2025-08-07 02:43:41.098 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134660
+2025-08-07 02:43:41.120 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.fx.node.map_aggregate start
+2025-08-07 02:43:41.124 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:43:42.910 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:43:42.923 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.fx.node.map_aggregate done
+2025-08-07 02:43:42.924 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134660
+2025-08-07 02:43:42.942 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.set_autocast_ipu_enabled start
+2025-08-07 02:43:42.949 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:43:44.750 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:43:44.763 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.set_autocast_ipu_enabled done
+2025-08-07 02:43:44.764 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134660
+2025-08-07 02:43:44.782 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.feature_dropout_ start
+2025-08-07 02:43:44.789 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:43:46.610 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.rand
+2025-08-07 02:43:56.626 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:43:56.856 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.feature_dropout_ done
+2025-08-07 02:43:56.857 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134660
+2025-08-07 02:43:56.878 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.mode start
+2025-08-07 02:43:56.884 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:43:58.700 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.zeros
+2025-08-07 02:44:35.786 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.mode
+2025-08-07 02:44:35.788 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch._jit_internal.is_scripting has no arguments, execute only once.
+2025-08-07 02:44:35.789 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.is_grad_enabled has no arguments, execute only once.
+2025-08-07 02:44:35.798 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.autograd.forward_ad.unpack_dual
+2025-08-07 02:44:35.801 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.get_default_dtype has no arguments, execute only once.
+2025-08-07 02:44:35.803 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.isfinite
+2025-08-07 02:44:35.806 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.masked_select
+2025-08-07 02:44:39.670 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:44:39.695 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.mode done
+2025-08-07 02:44:39.695 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134668
+2025-08-07 02:44:39.715 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.ao.quantization.pt2e.export_utils._move_exported_model_to_train start
+2025-08-07 02:44:39.721 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:44:41.502 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:44:41.516 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.ao.quantization.pt2e.export_utils._move_exported_model_to_train done
+2025-08-07 02:44:41.517 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134668
+2025-08-07 02:44:41.542 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.fx.experimental.proxy_tensor.maybe_handle_decomp start
+2025-08-07 02:44:41.548 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:44:43.366 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:44:43.378 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.fx.experimental.proxy_tensor.maybe_handle_decomp done
+2025-08-07 02:44:43.379 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134668
+2025-08-07 02:44:43.399 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.argmax start
+2025-08-07 02:44:43.406 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:44:45.199 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.randn
+2025-08-07 02:44:59.854 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:45:00.299 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.argmax done
+2025-08-07 02:45:00.300 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134668
+2025-08-07 02:45:00.323 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.utils.set_module start
+2025-08-07 02:45:00.329 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:45:02.142 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.empty
+2025-08-07 02:45:02.178 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 11, now: 134773 (F)
+2025-08-07 02:45:02.179 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.nn.init.calculate_gain
+2025-08-07 02:45:02.180 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:130 - Coverage increased 2, now: 134775
+2025-08-07 02:45:12.196 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:45:12.200 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.utils.set_module done
+2025-08-07 02:45:12.200 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134775
+2025-08-07 02:45:12.219 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.ao.quantization.quantization_mappings.get_embedding_static_quant_module_mappings start
+2025-08-07 02:45:12.226 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:45:14.071 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:45:14.087 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.ao.quantization.quantization_mappings.get_embedding_static_quant_module_mappings done
+2025-08-07 02:45:14.087 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134775
+2025-08-07 02:45:14.108 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.utils.backend_registration.generate_methods_for_privateuse1_backend start
+2025-08-07 02:45:14.113 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:45:15.916 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 21, now: 134796 (F)
+2025-08-07 02:45:15.917 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.utils.backend_registration.generate_methods_for_privateuse1_backend
+2025-08-07 02:45:15.921 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:130 - Coverage increased 1, now: 134797
+2025-08-07 02:45:15.982 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:130 - Coverage increased 14, now: 134811
+2025-08-07 02:45:16.004 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:130 - Coverage increased 4, now: 134815
+2025-08-07 02:45:16.023 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:45:16.038 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.utils.backend_registration.generate_methods_for_privateuse1_backend done
+2025-08-07 02:45:16.038 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134815
+2025-08-07 02:45:16.061 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.nanmedian start
+2025-08-07 02:45:16.068 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:45:17.832 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.tensor
+2025-08-07 02:45:17.854 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.nanmedian
+2025-08-07 02:45:17.856 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch._jit_internal.is_scripting has no arguments, execute only once.
+2025-08-07 02:45:17.857 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.is_grad_enabled has no arguments, execute only once.
+2025-08-07 02:45:17.892 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.autograd.forward_ad.unpack_dual
+2025-08-07 02:45:17.895 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.get_default_dtype has no arguments, execute only once.
+2025-08-07 02:45:22.407 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:45:22.433 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.nanmedian done
+2025-08-07 02:45:22.434 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134815
+2025-08-07 02:45:22.454 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.slice_inverse start
+2025-08-07 02:45:22.460 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:45:24.225 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.slice_inverse
+2025-08-07 02:45:24.227 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch._jit_internal.is_scripting has no arguments, execute only once.
+2025-08-07 02:45:24.228 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.is_grad_enabled has no arguments, execute only once.
+2025-08-07 02:45:24.262 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.autograd.forward_ad.unpack_dual
+2025-08-07 02:45:24.265 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.get_default_dtype has no arguments, execute only once.
+2025-08-07 02:45:24.267 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.isfinite
+2025-08-07 02:45:24.270 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.masked_select
+2025-08-07 02:45:24.277 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.ceil
+2025-08-07 02:45:29.879 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:45:29.906 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.slice_inverse done
+2025-08-07 02:45:29.907 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134815
+2025-08-07 02:45:29.930 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.as_strided_ start
+2025-08-07 02:45:29.936 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:45:31.779 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.tensor
+2025-08-07 02:45:31.803 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.as_strided_
+2025-08-07 02:45:31.804 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch._jit_internal.is_scripting has no arguments, execute only once.
+2025-08-07 02:45:31.805 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.is_grad_enabled has no arguments, execute only once.
+2025-08-07 02:45:31.839 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.autograd.forward_ad.unpack_dual
+2025-08-07 02:45:31.842 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.get_default_dtype has no arguments, execute only once.
+2025-08-07 02:45:33.737 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:45:33.761 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.as_strided_ done
+2025-08-07 02:45:33.762 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134815
+2025-08-07 02:45:33.782 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.nn.utils.parametrize.cached start
+2025-08-07 02:45:33.789 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:45:35.634 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:45:35.650 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.nn.utils.parametrize.cached done
+2025-08-07 02:45:35.650 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134815
+2025-08-07 02:45:35.673 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.utils.data.graph_settings.apply_random_seed start
+2025-08-07 02:45:35.680 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:45:37.427 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 8, now: 134874 (F)
+2025-08-07 02:45:37.428 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.utils.data.graph_settings.get_all_graph_pipes
+2025-08-07 02:45:37.568 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 76, now: 134891 (F)
+2025-08-07 02:45:37.569 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.utils.data.graph_settings.apply_random_seed
+2025-08-07 02:45:37.570 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch._jit_internal.is_scripting has no arguments, execute only once.
+2025-08-07 02:45:37.571 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.is_grad_enabled has no arguments, execute only once.
+2025-08-07 02:45:47.581 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:45:47.586 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.utils.data.graph_settings.apply_random_seed done
+2025-08-07 02:45:47.586 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134892
+2025-08-07 02:45:47.608 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.max_pool2d start
+2025-08-07 02:45:47.614 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:45:49.458 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.randn
+2025-08-07 02:45:59.481 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:45:59.848 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.max_pool2d done
+2025-08-07 02:45:59.848 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134892
+2025-08-07 02:45:59.872 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.utils.collect_env.get_cudnn_version start
+2025-08-07 02:45:59.878 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:46:01.691 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.utils.collect_env.get_platform has no arguments, execute only once.
+2025-08-07 02:46:01.691 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 10, now: 134902 (F)
+2025-08-07 02:46:01.692 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.utils.collect_env.get_cudnn_version
+2025-08-07 02:46:01.735 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:46:01.758 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.utils.collect_env.get_cudnn_version done
+2025-08-07 02:46:01.758 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134902
+2025-08-07 02:46:01.780 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.ao.quantization.utils.validate_qmin_qmax start
+2025-08-07 02:46:01.787 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:46:03.566 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 2, now: 134904 (F)
+2025-08-07 02:46:03.567 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.ao.quantization.utils.validate_qmin_qmax
+2025-08-07 02:46:03.572 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:130 - Coverage increased 2, now: 134906
+2025-08-07 02:46:03.645 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 4, now: 134906 (F)
+2025-08-07 02:46:03.645 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:46:03.659 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.ao.quantization.utils.validate_qmin_qmax done
+2025-08-07 02:46:03.659 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134906
+2025-08-07 02:46:03.678 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.cuda.profiler.init start
+2025-08-07 02:46:03.685 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:46:05.492 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:46:05.503 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.cuda.profiler.init done
+2025-08-07 02:46:05.504 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134906
+2025-08-07 02:46:05.526 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.nn.init.kaiming_uniform_ start
+2025-08-07 02:46:05.532 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:46:07.321 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.empty
+2025-08-07 02:46:07.405 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 1, now: 134907 (F)
+2025-08-07 02:46:07.406 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.nn.init.calculate_gain
+2025-08-07 02:46:17.418 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:46:17.422 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.nn.init.kaiming_uniform_ done
+2025-08-07 02:46:17.422 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134907
+2025-08-07 02:46:17.442 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.backends.cudnn.set_flags start
+2025-08-07 02:46:17.448 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:46:19.301 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 15, now: 134922 (F)
+2025-08-07 02:46:19.302 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.backends.cudnn.set_flags
+2025-08-07 02:46:19.414 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:46:19.429 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.backends.cudnn.set_flags done
+2025-08-07 02:46:19.430 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134922
+2025-08-07 02:46:19.453 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.as_tensor start
+2025-08-07 02:46:19.460 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:46:21.272 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.as_tensor
+2025-08-07 02:46:31.283 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:46:31.288 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.as_tensor done
+2025-08-07 02:46:31.288 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134922
+2025-08-07 02:46:31.312 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.autograd.functional.jacobian start
+2025-08-07 02:46:31.319 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:46:33.131 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.rand
+2025-08-07 02:46:41.326 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:46:41.516 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.autograd.functional.jacobian done
+2025-08-07 02:46:41.517 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134922
+2025-08-07 02:46:41.541 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.orgqr start
+2025-08-07 02:46:41.548 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:46:43.321 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:46:43.332 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.orgqr done
+2025-08-07 02:46:43.333 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134922
+2025-08-07 02:46:43.354 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.fx.experimental.proxy_tensor.thunkify start
+2025-08-07 02:46:43.361 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:46:45.157 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:46:45.170 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.fx.experimental.proxy_tensor.thunkify done
+2025-08-07 02:46:45.170 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134922
+2025-08-07 02:46:45.193 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.jit.export_opnames start
+2025-08-07 02:46:45.199 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:46:46.989 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.empty
+2025-08-07 02:46:47.030 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.nn.init.calculate_gain
+2025-08-07 02:46:57.043 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:46:57.047 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.jit.export_opnames done
+2025-08-07 02:46:57.048 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134922
+2025-08-07 02:46:57.069 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.bitwise_left_shift start
+2025-08-07 02:46:57.075 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:46:58.852 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.tensor
+2025-08-07 02:46:58.943 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.bitwise_left_shift
+2025-08-07 02:46:58.944 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch._jit_internal.is_scripting has no arguments, execute only once.
+2025-08-07 02:46:58.946 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.is_grad_enabled has no arguments, execute only once.
+2025-08-07 02:46:58.952 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.autograd.forward_ad.unpack_dual
+2025-08-07 02:46:58.954 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.get_default_dtype has no arguments, execute only once.
+2025-08-07 02:47:00.588 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:47:00.610 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.bitwise_left_shift done
+2025-08-07 02:47:00.611 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134933
+2025-08-07 02:47:00.630 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.not_equal start
+2025-08-07 02:47:00.636 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:47:02.431 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.tensor
+2025-08-07 02:47:02.482 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.not_equal
+2025-08-07 02:47:02.484 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch._jit_internal.is_scripting has no arguments, execute only once.
+2025-08-07 02:47:02.486 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.is_grad_enabled has no arguments, execute only once.
+2025-08-07 02:47:02.494 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.autograd.forward_ad.unpack_dual
+2025-08-07 02:47:02.496 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.get_default_dtype has no arguments, execute only once.
+2025-08-07 02:47:04.101 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:47:04.117 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.not_equal done
+2025-08-07 02:47:04.118 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134933
+2025-08-07 02:47:04.141 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.lcm start
+2025-08-07 02:47:04.148 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:47:05.975 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.tensor
+2025-08-07 02:47:06.027 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.lcm
+2025-08-07 02:47:06.029 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch._jit_internal.is_scripting has no arguments, execute only once.
+2025-08-07 02:47:06.030 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.is_grad_enabled has no arguments, execute only once.
+2025-08-07 02:47:06.036 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.autograd.forward_ad.unpack_dual
+2025-08-07 02:47:06.038 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:89 - torch.get_default_dtype has no arguments, execute only once.
+2025-08-07 02:47:17.467 | INFO     | __main__:fuzz_dataset:194 - 
+Fuzzing process timeout, restarting...
+2025-08-07 02:47:17.471 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.lcm done
+2025-08-07 02:47:17.471 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134933
+2025-08-07 02:47:17.492 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.cuda.memory.memory_summary start
+2025-08-07 02:47:17.499 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:47:19.365 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:47:19.379 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.cuda.memory.memory_summary done
+2025-08-07 02:47:19.380 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134933
+2025-08-07 02:47:19.402 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.serialization.validate_hpu_device start
+2025-08-07 02:47:19.409 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:47:21.228 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:47:21.247 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.serialization.validate_hpu_device done
+2025-08-07 02:47:21.247 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134933
+2025-08-07 02:47:21.269 | INFO     | __main__:fuzz_dataset:169 - Fuzz torch.nn.modules.module.register_module_buffer_registration_hook start
+2025-08-07 02:47:21.275 | INFO     | __main__:safe_fuzz:75 - Fuzzing process started for torch
+2025-08-07 02:47:23.143 | INFO     | repfuzz.fuzz.static_instrument:wrapper:24 - Coverage increased 8, now: 134941 (F)
+2025-08-07 02:47:23.144 | INFO     | repfuzz.fuzz.fuzz_api:fuzz_api:97 - Start fuzz torch.nn.modules.module.register_module_buffer_registration_hook
+2025-08-07 02:47:23.166 | INFO     | __main__:fuzz_dataset:188 - Fuzzing torch done
+2025-08-07 02:47:23.181 | INFO     | __main__:fuzz_dataset:222 - Fuzz torch.nn.modules.module.register_module_buffer_registration_hook done
+2025-08-07 02:47:23.181 | INFO     | __main__:fuzz_dataset:223 - Coverage now: 134941
+2025-08-07 02:47:23.181 | INFO     | __main__:fuzz_dataset:225 - final total coverage: 134941

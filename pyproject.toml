@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools", "Cython"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "RepFuzz"
+version = "1.0"
+description = "Robust and Effective Python Library Fuzzer"
+readme = "README.MD"
+requires-python = ">=3.12"
+authors = [
+  {email = "lisy@std.uestc.edu.cn"},
+  {name = "Senyi Li"}
+]
+
+dependencies = [
+  "openai",
+  "numpy",
+  "tqdm",
+  "colorama",
+  "attrs",
+  "Cython",
+]
+
+[project.optional-dependencies]
+dev=[
+  "black", 
+  "isort",
+  "mypy",
+  "pytest"
+]
+
+[tool.black]
+line-length = 102
+target-version = ["py312"]
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+warn_unused_configs = true
+
+[project.scripts]
+parse_api = "repfuzz.parse_api.__main__:main"
+gen_api_call = "repfuzz.gen_api_call:main"
+fuzz_library = "repfuzz.fuzz.fuzz_library:main"
+fuzz_dataset = "repfuzz.fuzz.fuzz_dataset:main"
+clean_dup_data = "repfuzz.tools.clean_dup_data:main"
+crash_filter = "repfuzz.tools.crash_filter:clean_fake_crash"
+library_status = "repfuzz.tools.library_status:main"
