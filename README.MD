@@ -12,7 +12,9 @@ pip install -e .
 pip install -e .[dev]
 
 # (optional) install the puts for experments
-pip install -r put_requirements.txt
+bash put_requirements.sh
+# if you are using uv, run
+# USE_UV=1 bash put_requirements.sh
 
 ```
 
