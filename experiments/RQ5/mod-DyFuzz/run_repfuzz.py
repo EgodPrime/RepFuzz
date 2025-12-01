@@ -197,7 +197,7 @@ for mod in list(moddic.keys()):
                 # run(mod,api,n)
                 run_limit_n(mod, api, n, int(1e2))
             logger.info(f"Fuzz {mod}.{api} done")
-            logger.info(f"Coverage now: {dcov.count_bits_py()}")
+            logger.info(f"Coverage now: {dcov.count_bitmap_py()}")
 
     # print(mcount, mod,api,moddic[mod][api]["pn"])
     # stest(stresslist,mod,api,moddic[mod][api]["pn"][1])

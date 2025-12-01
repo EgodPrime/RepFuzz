@@ -53,7 +53,7 @@ from repfuzz.fuzz.static_instrument import instrument_module
 #             target = importlib.import_module(library_name)
 #             instrument_module(target)
 
-#         logger.debug(f"init coverage: {dcov.count_bits_py()}")
+#         logger.debug(f"init coverage: {dcov.count_bitmap_py()}")
 
 #         init_fuzz()
 #         start_fuzz()
@@ -129,7 +129,7 @@ def skip_imports_coverage(imports_file_path:str, white_list: list[str]):
                 except:
                     pass
 
-    logger.info(f"Initial coverage is {dcov.count_bits_py()}")
+    logger.info(f"Initial coverage is {dcov.count_bitmap_py()}")
 
 def fuzz_dataset(dataset: dict) -> None:
     
@@ -220,9 +220,9 @@ def fuzz_dataset(dataset: dict) -> None:
                 safe_worker.join()
                 
             logger.info(f"Fuzz {full_name} done")
-            logger.info(f"Coverage now: {dcov.count_bits_py()}")
+            logger.info(f"Coverage now: {dcov.count_bitmap_py()}")
 
-    logger.info(f"final total coverage: {dcov.count_bits_py()}")
+    logger.info(f"final total coverage: {dcov.count_bitmap_py()}")
     dcov.close_bitmap_py()
 
 def main():

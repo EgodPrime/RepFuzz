@@ -167,7 +167,7 @@ def fuzz_one_library(library_name: str) -> None:
         safe_worker.join()
 
     dt = time.time() - t0
-    add_fuzz_record(conn, int(time.time()), exec_counter, dt, dcov.count_bits_py())
+    add_fuzz_record(conn, int(time.time()), exec_counter, dt, dcov.count_bitmap_py())
     dcov.close_bitmap_py()
 
 def main():

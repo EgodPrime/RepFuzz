@@ -250,7 +250,7 @@ def main_with_config(ctx, folder, cpu, batch_size, target, model_name):
                             'return_code': -1,
                             'exception': e
                         })
-                yb_logger.info(f"Coverage now: {dcov.count_bits_py()}")
+                yb_logger.info(f"Coverage now: {dcov.count_bitmap_py()}")
                 yb_logger.info(f"f4a test {library_name}.{api_names[i]} done") 
 
     else:

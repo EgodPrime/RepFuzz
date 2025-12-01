@@ -121,11 +121,11 @@ def fuzz_api(api: Callable, *args, **kwargs) -> None:
                 f.write(f"args={objjson(args)}\n")
                 f.write(f"kwargs={objjson(kwargs)}\n")
                 f.write(f"{api.__module__}.{api.__name__}(*args, **kwargs)\n")
-            p0 = dcov.count_bits_py()
+            p0 = dcov.count_bitmap_py()
             c_conn.recv()  # wait for the signal from the parent
             execute_once(api, *args, **kwargs)
             c_conn.send(0)  # signal to the parent that the execution is done.
-            p1 = dcov.count_bits_py()
+            p1 = dcov.count_bitmap_py()
             if p1 > p0:
                 logger.info(f"Coverage increased {p1-p0}, now: {p1}")
     #     pbar.update(FUZZ.iters_per_seed)

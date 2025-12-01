@@ -17,9 +17,9 @@ def instrument_function(func: FunctionType | BuiltinFunctionType):
 
     @wraps(func)
     def wrapper(*args, **kwargs):
-        p0 = dcov.count_bits_py()
+        p0 = dcov.count_bitmap_py()
         res = func(*args, **kwargs)
-        p1 = dcov.count_bits_py()
+        p1 = dcov.count_bitmap_py()
         if p1 > p0:
             logger.info(f"Coverage increased {p1-p0}, now: {p1} (F)")
         full_name = f"{func.__module__}.{func.__name__}"

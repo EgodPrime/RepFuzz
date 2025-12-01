@@ -3,7 +3,7 @@
 - dataset is `experiments/RQ4/repfuzz_export_mini.json`, which is random sampled from `data/library_qwen_2.5_7`
 - modification of DyFuzz is at `mod-DyFuzz` 
 - modification of Fuzz4All is at `mod-Fuzz4All`
-- install dcov at `https://github.com/EgodPrime/dcov`
+- install dcov at `https://github.com/EgodPrime/dcov` via `pip install git+https://github.com/EgodPrime/dcov.git@pure-python`
 
 # Experiment
 
