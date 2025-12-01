@@ -3,12 +3,12 @@ import pathlib
 PROJECT_DIR = pathlib.Path(__file__).resolve().parent.parent.parent
 SOURCE_DIR = PROJECT_DIR.joinpath("src", "repfuzz")
 DATA_DIR = PROJECT_DIR.joinpath("data")
-LIBRARY_DATA_DIR = DATA_DIR.joinpath("library_qwen_2.5_7")
+LIBRARY_DATA_DIR = DATA_DIR.joinpath("library_qwen_2.5_7_wo_phase3")
 FUZZFILE_PATH = DATA_DIR.joinpath("fuzz.db")
 
 
 class CHAT_LLM:
-    base_url = "http://192.168.2.29:8001/v1" # change this to your own
+    base_url = "http://192.168.3.15:8021/v1" # change this to your own
     # model_name = "LLM-Research/Meta-Llama-3.1-8B-Instruct"
     # model_name = "LLM-Research/Mistral-7B-Instruct-v0.3"
     model_name = "Qwen/Qwen2.5-7B-Instruct" # change this to your own
@@ -18,7 +18,7 @@ class CHAT_LLM:
     api_key = "openai" # change this to your own
     chat = True
     generate = True
-    max_concurrency = 5
+    max_concurrency = 36
 
 
 class PARSE:
@@ -27,7 +27,7 @@ class PARSE:
 
 
 class GENERATION:
-    prompt_option = "C"  # one of [C, NT, NS], default C
+    prompt_option = "wo_phase1"  # one of [C, NT, NS, wo_phase1], default C
 
 
 class FUZZ:

@@ -12,3 +12,4 @@ build
 **/*.jpg
 **/*.json
 uv.lock
+**/safe_dir

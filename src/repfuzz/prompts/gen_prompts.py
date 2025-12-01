@@ -93,5 +93,20 @@ Now start:
 """
     return prompt
 
+def get_gen_prompt_wo_phase1(api: API):
+    prompt = f"""You are a Python programer.
+Generate an API call for the following API: {api.full_name}.
+
+Note:
+- Do not generate any comments.
+- Do not generate any `print`
+- You should at first create every argument with a variable, then call the target api using them.
+- Generate a <END> when you are doen.
+
+Now start:
+<START>
+"""
+    return prompt
+
 
 get_gen_prompt = globals()[f"get_gen_prompt_{GENERATION.prompt_option}"]
