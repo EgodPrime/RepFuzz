@@ -1,0 +1,8 @@
+bucket,n_public,n_parsed,n_gen,gen_failure_rate
+poskw,2758,2758,1878,0.3191
+varargs,83,83,11,0.8675
+keyword_only,3,3,2,0.3333
+no_args,330,,,
+c_ext,672,672,526,0.2173
+unparsed,13,,,
+total,3859,3846,2417,0.3716

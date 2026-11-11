@@ -13,3 +13,4 @@ build
 **/*.json
 uv.lock
 **/safe_dir
+.pi

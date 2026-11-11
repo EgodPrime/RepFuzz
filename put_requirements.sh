@@ -13,8 +13,10 @@ if [ "$use_uv" == "1" ]; then
     cmd_prefix="uv"
 fi
 
-cmd1="$cmd_prefix pip install scikit-learn==1.6.0 scipy==1.14.1 dask[dataframe]==2024.12.1 nltk==3.9.1 pandas==2.2.3 numpy==2.2.1"
-cmd2="$cmd_prefix pip install torch==2.5.1+cpu --index-url=https://download.pytorch.org/whl/cpu"
+# 通用/数据分析库（保留原有中与 IoT 场景无关但仍被测的通用库）
+cmd1="$cmd_prefix pip install scipy==1.14.1 dask[dataframe]==2024.12.1 pandas==2.2.3 numpy==2.2.1"
+# IoT 应用依赖库（替换原 torch/nltk/sklearn）
+cmd2="$cmd_prefix pip install redis requests"
 
 eval $cmd2
 eval $cmd1
